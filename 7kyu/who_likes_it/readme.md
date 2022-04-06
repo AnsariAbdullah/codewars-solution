@@ -10,3 +10,5 @@ Implement the function which takes an array containing the names of people that 
 
 ## Solution
 Checks the length of the items in array and returns text accordingly
+
+Note: Switch case can also be used here
