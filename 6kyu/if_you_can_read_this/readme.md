@@ -1,5 +1,5 @@
 Task
-You'll have to translate a string to Pilot's alphabet (NATO phonetic alphabet).
+You'll have to translate a string to Pilot's alphabet [NATO phonetic alphabet](https://en.wikipedia.org/wiki/NATO_phonetic_alphabet).
 
 Input:
 
