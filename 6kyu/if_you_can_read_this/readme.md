@@ -17,3 +17,5 @@ Punctuation should be kept in your return string, but spaces should not.
 Xray should not have a dash within.
 Every word and punctuation mark should be seperated by a space ' '.
 There should be no trailing whitespace
+
+## Solution
