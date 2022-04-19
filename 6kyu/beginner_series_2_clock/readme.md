@@ -8,3 +8,6 @@ m = 1
 s = 1
 
 result = 61000
+
+## Solution
+Multiply hours, minutes and seconds with equivalent miliseconds. Return sum
