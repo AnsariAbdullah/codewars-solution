@@ -1,0 +1,1 @@
+const filterNeg = (arr) => arr.filter(item => item > 0)
