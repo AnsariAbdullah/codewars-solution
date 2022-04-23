@@ -1,0 +1,1 @@
+const removeWhiteSpace = (string) => string.replaceAll(' ', '')
