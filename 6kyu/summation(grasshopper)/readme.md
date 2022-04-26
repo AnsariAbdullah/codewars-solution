@@ -8,3 +8,6 @@ summation(2) -> 3
 
 summation(8) -> 36
 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+
+## Solution
+Run for loop till the number and add all values
