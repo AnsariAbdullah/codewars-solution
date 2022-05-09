@@ -1,0 +1,1 @@
+## This readme file is a collection of all the things I learned during solving codewars Katas
