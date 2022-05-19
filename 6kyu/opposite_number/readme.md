@@ -7,4 +7,4 @@ Examples:
 -34: 34
 
 ## Solution
-Return the passed number after multiplying it with minus '-'
+Return the passed number after multiplying it with `-1` this will change the positive number to negetive and negetive number to positive.
