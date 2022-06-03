@@ -1,8 +1,3 @@
 function index(array, n) {
-	if (array[n] !== undefined) {
-		let arrayItem = array[n];
-		return Math.pow(arrayItem, n);
-	} else {
-		return -1
-	}
+	return Math.pow(array[n], n) || -1;
 }
