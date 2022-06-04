@@ -14,4 +14,4 @@ If either input is an empty string, consider it as zero.
 Inputs and the expected output will never exceed the signed 32-bit integer limit (2^31 - 1)
 
 ## Solution
-Parse string into integer using `parseInt` if it is not empty. Sum them and convert the sum back to string using `toString`
+Convert string values into number using `Number()`. Sum it up and convert it back into string using `String()`
