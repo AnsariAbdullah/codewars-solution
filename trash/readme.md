@@ -3,8 +3,6 @@ Add maps and set in JS. Not sure if this should go in global readme. Also add lo
 
 Maybe you can write a blog about the journey of codewars on hashnode.
 
-Minor changes in code
-
 Differet types of `for loop` uses:
 - `for of` for array
 - `for in` for object
