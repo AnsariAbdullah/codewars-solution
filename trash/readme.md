@@ -6,6 +6,3 @@ Maybe you can write a blog about the journey of codewars on hashnode.
 Differet types of `for loop` uses:
 - `for of` for array
 - `for in` for object
-
-
-PS. Add other details
