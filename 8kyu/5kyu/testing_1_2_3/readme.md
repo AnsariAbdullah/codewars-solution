@@ -11,3 +11,6 @@ Examples: (Input --> Output)
 
 ## Solution
 Use `forEach`and iterate over array. In a new array push values using string interpolation `${index+1}: ${item}`
+
+Alternate solution
+Instead of using `forEach` use `map()` so you don't have to create a new array and return it as `map` is will perform action on the same array
