@@ -15,5 +15,3 @@ Maybe you can write a blog about the journey of codewars on hashnode. Hashnode i
 Differet types of `for loop` uses:
 - `for of` for array
 - `for in` for object
-
-Minor changes
