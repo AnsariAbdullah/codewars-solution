@@ -16,4 +16,4 @@ You cannot assume the size of the array.
 You can assume that you do get an array and if the array is empty, return 0.
 
 ## Solution
-Check if the array has numbers then use `reduce()` else return `0`
+Use `reduce()` and pass initial value as `0` so if the array is empty it returns `0` else it returns the sum of all numbers
