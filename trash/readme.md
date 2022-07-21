@@ -17,4 +17,4 @@ Differet types of `for loop` uses:
 - `for in` for object
 
 
-Do other challenges as well from the link above. Find other links also
+Do other challenges as well from the link above. Find other links also. If there are more challenges like Hackereart... create a new folder for it and store it's solution there.
