@@ -17,4 +17,4 @@ Differet types of `for loop` uses:
 - `for in` for object
 
 
-Do other challenges as well from the link above.
+Do other challenges as well from the link above. Find other links also
