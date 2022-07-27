@@ -19,4 +19,4 @@ Differet types of `for loop` uses:
 
 Do other challenges as well from the link above. Find other links also. If there are more challenges like Hackereart... create a new folder for it and store it's solution there.
 
-Start the freecodecamp JS section and write those as well in the readme section.
+### Start the freecodecamp JS section and write those as well in the main readme section.
