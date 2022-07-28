@@ -9,3 +9,6 @@
 
 ### map
 - Iterates over array and modifies the same array
+
+### slice()
+- Returns selected elements in an array, as a new array. It selects from a given start, up to a (not inclusive) given end.
