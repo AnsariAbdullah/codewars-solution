@@ -12,3 +12,6 @@
 
 ### slice()
 - Returns selected elements in an array, as a new array. It selects from a given start, up to a (not inclusive) given end.
+
+### splice()
+- Method adds and/or removes array elements. It overwrites the original array
