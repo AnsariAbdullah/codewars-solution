@@ -15,3 +15,9 @@
 
 ### splice()
 - Method adds and/or removes array elements. It overwrites the original array
+
+### Math.max
+- Returns largest value given as input parameters. 
+eg. Math.max(1, 2, 3) // will return 3
+- This will also work on arrays
+eg. Math.max(...array) // will return largest value from array
