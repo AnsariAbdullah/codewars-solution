@@ -1,5 +1,3 @@
 function minMax(arr) {
-	let minVal = Math.min(...arr)
-	let maxVal = Math.max(...arr)
-	return [minVal, maxVal]
+	return [Math.min(...arr), Math.max(...arr)];
 }
