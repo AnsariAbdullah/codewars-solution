@@ -28,10 +28,10 @@ eg. Math.min(1, 2, 3) // will return 1
 - This will also work on arrays
 eg. Math.min(...array) // will return smallest value from array
 
-## Escaping literal quote
+### Escaping literal quote
 Placing a backslash (\) in front of the quote will help to escape literal quote
 
-## Escape sequence in Strings
+### Escape sequence in Strings
 Escape char | For
 --- | --- 
 `\'` | single quote
