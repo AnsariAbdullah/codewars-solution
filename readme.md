@@ -27,3 +27,6 @@ eg. Math.max(...array) // will return largest value from array
 eg. Math.min(1, 2, 3) // will return 1
 - This will also work on arrays
 eg. Math.min(...array) // will return smallest value from array
+
+## Escaping literal quote
+Placing a backslash (\) in front of the quote will help to escape literal quote
