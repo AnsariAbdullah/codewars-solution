@@ -30,3 +30,13 @@ eg. Math.min(...array) // will return smallest value from array
 
 ## Escaping literal quote
 Placing a backslash (\) in front of the quote will help to escape literal quote
+
+## Esacape sequence in Strings
+`\'`	for single quote
+`\"`	for double quote
+`\\`	for backslash
+`\n`	for newline
+`\r`	for carriage return
+`\t`	for tab
+`\b`	for word boundary
+`\f`	for form feed
