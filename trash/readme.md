@@ -21,3 +21,6 @@ Do other challenges as well from the link above. Find other links also. If there
 ### Start the freecodecamp JS section and write those as well in the main readme section.
 - Make it a point based thing
 - Add sections eg. all `Math.` methods go together
+
+
+NOTE: Please store all codewar solution in a codewar folder.
