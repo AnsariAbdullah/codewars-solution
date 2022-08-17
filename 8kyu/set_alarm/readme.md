@@ -9,3 +9,5 @@ setAlarm(true, false) -> true
 
 ## Solution
 Retutn `1st-param && !2ndparam` this will return `true` only when first parameter is true and second false.
+
+NOTE: For more readability if-else or ternary can be added. Or simply add comments.
