@@ -9,3 +9,6 @@ Since we cannot define keywords in Javascript (well, at least I don't know how t
 
 ## Solution
 Write ternary and return `true` if one of tha passed param is true and another one is false.
+
+## Alternate solution
+Return true if `param1 != param2`. Since there are only 2 possibilities of the value being either true or false this will work fine.
