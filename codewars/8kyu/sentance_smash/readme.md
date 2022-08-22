@@ -5,3 +5,6 @@ Example
 
 ## Solution
 Use `join()`
+
+## Alternate solution
+Run for loop through the array. Add each word of the array in a variable with space. Remove before and after spaces using `trim()` just incase it has spaces.
