@@ -42,3 +42,9 @@ Escape char | For
 `\t` | tab
 `\b` | word boundary
 `\f` | form feed
+
+### Sets
+Set is a collection of unique values. Each value can only occur once in a Set. A Set can hold any value of any data type. You can create a JavaScript Set by passing an Array to `new Set()`. And use and use `add()` to add values and variables.
+
+eg. const letters = new Set(["a","b","c"]);
+letters.add("d");
