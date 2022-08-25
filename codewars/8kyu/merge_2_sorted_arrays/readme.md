@@ -11,3 +11,6 @@ Examples (input -> output)
 
 ## Solution
 Merge arrays. Sort them in ascending order. Run a loop to check if the resultant array has duplicate values - remove duplicates and push into new array. Return new array.
+
+## Alternate Solution
+Use Set (as set holds unique value). Concat both arrays together and sort them in ascending order.
