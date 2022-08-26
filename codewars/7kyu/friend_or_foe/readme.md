@@ -11,3 +11,6 @@ Note: keep the original order of the names in the output.
 
 ## Solution
 Run `forEach` on the array of names and check if the item has length of 4. If true push it into a `friends` array. Return the friends array
+
+## Alternate Solution
+Use filter on array and check if the length is 4.

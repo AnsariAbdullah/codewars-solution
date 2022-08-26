@@ -7,3 +7,8 @@ function friend(friends) {
 	})
 	return frnds;
 }
+
+// Alternate solution
+function friend(friends){
+  return friends.filter(name => name.length === 4)
+}
