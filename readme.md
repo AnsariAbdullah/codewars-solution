@@ -33,6 +33,10 @@ eg. Math.min(...array) // will return smallest value from array
 e.g. Math.floor(5.95) // will return 5
 
 ### Math.round
+- Rounds the number to the nearest integer.
+e.g. Math.round(0.9); // will return: 1
+
+### Math.trunc
 - Returns the integer part of a number by removing any fractional/decimal digits.
 e.g. Math.trunc(13.37) // will return: 13
 
