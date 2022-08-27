@@ -34,7 +34,8 @@ e.g. Math.floor(5.95) // will return 5
 
 ### Math.round
 - Returns the integer part of a number by removing any fractional/decimal digits.
-e.g. Math.trunc(13.37) // expected output: 13
+e.g. Math.trunc(13.37) // will return: 13
+
 
 ### Escaping literal quote
 Placing a backslash (\) in front of the quote will help to escape literal quote
