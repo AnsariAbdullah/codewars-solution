@@ -28,6 +28,14 @@ eg. Math.min(1, 2, 3) // will return 1
 - This will also work on arrays
 eg. Math.min(...array) // will return smallest value from array
 
+### Math.floor
+- Rounds down any floating-point integer passed in the argument.
+e.g. Math.floor(5.95) // will return 5
+
+### Math.round
+- Returns the integer part of a number by removing any fractional/decimal digits.
+e.g. Math.trunc(13.37) // expected output: 13
+
 ### Escaping literal quote
 Placing a backslash (\) in front of the quote will help to escape literal quote
 
