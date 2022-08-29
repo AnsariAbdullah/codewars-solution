@@ -61,3 +61,7 @@ Set is a collection of unique values. Each value can only occur once in a Set. A
 
 eg. const letters = new Set(["a","b","c"]);
 letters.add("d");
+
+### Replace
+Replace is used to replace string with another string.
+e.g. p.replace('dog', 'monkey')
