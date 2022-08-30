@@ -65,3 +65,7 @@ letters.add("d");
 ### Replace
 Replace is used to replace string with another string.
 e.g. p.replace('dog', 'monkey')
+
+### Array.from
+Array.from returns an array from any iterable object like string.
+e.g. Array.from("ABCDEFG") // will return ['A', 'B', 'C', 'D', 'E', 'F', 'G']
