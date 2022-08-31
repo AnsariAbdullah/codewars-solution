@@ -69,3 +69,9 @@ e.g. p.replace('dog', 'monkey')
 ### Array.from
 Array.from returns an array from any iterable object like string.
 e.g. Array.from("ABCDEFG") // will return ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+
+### Array.shift()
+it Shifts(removes) the first element of the array:
+e.g. const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+fruits = ["Orange", "Apple", "Mango"];
