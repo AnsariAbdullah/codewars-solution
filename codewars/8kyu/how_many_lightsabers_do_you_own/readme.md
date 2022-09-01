@@ -12,4 +12,4 @@ For example(Input --> Output):
 "Zach" --> 18
 
 ## Solution
-User ternary to return 18 if the name == Zach else return false. Use any name as a default parameter.
+User ternary to return 18 if the name == Zach else return false.
