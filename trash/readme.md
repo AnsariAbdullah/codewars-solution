@@ -24,3 +24,4 @@ Do other challenges as well from the link above. Find other links also. If there
 
 
 NOTE: Please store all codewar solution in a codewar folder.
+Minor changes
