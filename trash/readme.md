@@ -23,3 +23,5 @@ Do other challenges as well from the link above. Find other links also. If there
 - Add sections eg. all `Math.` methods go together
 
 Note: Format the actual readme in a better way (Like AirBNB documentation)
+
+Minor changes 
