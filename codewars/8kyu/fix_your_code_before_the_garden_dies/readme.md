@@ -2,4 +2,5 @@ You have an award-winning garden and every day the plants need exactly 40mm of w
 
 Your task is to debug the code before your plants die!
 
-## 
+## Solution
+Fix parameter name, string interpolation, etc.
