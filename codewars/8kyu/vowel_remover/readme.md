@@ -10,3 +10,6 @@ y is not considered a vowel for this kata
 
 ## Solution
 Use replace with regex `replace(/a|e|i|o|u/g, '')`
+
+## Alternate solution
+Use `sort()` and `join()` with regex `replace(/a|e|i|o|u/g, '')`
