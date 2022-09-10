@@ -17,4 +17,7 @@ P. S. You can use \n in string to jump to the next line.
 Note: newlines should be added between rows, but there should be no trailing newline at the end. If you're unsure about the format, look at the sample tests.
 
 ## Solution
-Use for loop or simply use an array from 1-10. Map through the array and return the multiplicated string along with new line - `/n` using `join()`.
+Use for loop or simply use an array from 1-10. Map through the array and return the multiplicated string along with new line - `\n` using `join()`.
+
+## Alternate solution
+Use for loop and store the multiplicated string on each iteration. Along with it add new line - `\n` if i!==10
