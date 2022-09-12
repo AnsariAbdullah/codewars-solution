@@ -80,3 +80,10 @@ fruits = ["Orange", "Apple", "Mango"];
 parseInt() parses a number from string to number format. It takes two parameter one is the input that should be converted another one is the radix parameter which specifies the number system to be used.
 Radix parameters are as follow:
 2 = binary, 8 = octal, 10 = decimal, 16 = hexadecimal.
+
+### Number()
+The Number() method converts a value to a number. If the value cannot be converted, `NaN` is returned. For booleans, Number() returns 0 or 1. For dates, Number() returns milliseconds since January 1, 1970 00:00:00. For strings, Number() returns a number or `NaN`.
+e.g. Number(true)		// will return 1
+Number(false)		// will return 0
+Number(new Date())		// will return 1662975130384
+Number("999")		// will return 999
