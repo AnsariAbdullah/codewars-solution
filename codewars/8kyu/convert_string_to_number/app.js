@@ -1,3 +1,3 @@
-const stringToNumber = function(str){
-  return parseInt(str);
+const stringToNumber = function (str) {
+	return parseInt(str);
 }
