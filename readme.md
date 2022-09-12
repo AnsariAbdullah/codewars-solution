@@ -75,3 +75,8 @@ it Shifts(removes) the first element of the array:
 e.g. const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.shift();
 fruits = ["Orange", "Apple", "Mango"];
+
+### parseInt()
+parseInt() parses a number from string to number format. It takes two parameter one is the input that should be converted another one is the radix parameter which specifies the number system to be used.
+Radix parameters are as follow:
+2 = binary, 8 = octal, 10 = decimal, 16 = hexadecimal.
