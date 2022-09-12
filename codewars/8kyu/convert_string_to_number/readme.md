@@ -10,3 +10,6 @@ Examples
 
 ## Solution
 Use `parseInt()` to convert string to number.
+
+## Alternate solution
+Use `Number()` to convert string to number.
