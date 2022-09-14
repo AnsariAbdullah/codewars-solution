@@ -26,5 +26,3 @@ Note: Format the actual readme in a better way (Like AirBNB documentation)
 Link for reference: https://github.com/airbnb/javascript
 
 Later on format all docs as well.
-
-Minor changes
