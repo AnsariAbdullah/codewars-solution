@@ -1,3 +1,3 @@
-function hexToDec(hexString){
-  return parseInt(hexString, 16)
+function hexToDec(hexString) {
+	return parseInt(hexString, 16)
 }
