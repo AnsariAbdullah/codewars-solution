@@ -93,3 +93,6 @@ The while loop runs until the condition passed to it is true.
 e.g. while( i < 10) {
 	// this block of code will run until the value for i is less than 10 
 }
+
+## Array.proptype
+You can add a new property to array using this.
