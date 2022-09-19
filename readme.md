@@ -87,3 +87,9 @@ e.g. Number(true)		// will return 1
 Number(false)		// will return 0
 Number(new Date())		// will return 1662975130384
 Number("999")		// will return 999
+
+## while loop
+The while loop runs until the condition passed to it is true.
+e.g. while( i < 10) {
+	// this block of code will run until the value for i is less than 10 
+}
