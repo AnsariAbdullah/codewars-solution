@@ -5,4 +5,4 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 [10, 343445353, 3453445, 3453545353453] should return 3453455.
 
 ## Solution
-Sort the array in ascending order. Create two variable on for `smallest` and another for `secondSmallest`. Assign first element of array to `smallest` and second element to `secondSmallest`
+Create a new variable `arr`. Sort the array in ascending order and store it in `arr`. Return the addition of 1st and 2nd element of the array.
