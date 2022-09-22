@@ -11,3 +11,6 @@ In this Kata, a string is said to be in ALL CAPS whenever it does not contain an
 
 ## Solution
 Use `toString()` to convert `this` into a string and use `toUpperCase` to check if both are equal.
+
+## Alternate solution
+Use regex to test if `this` does not consists of lowercase letters.
