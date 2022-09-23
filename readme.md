@@ -94,5 +94,9 @@ e.g. while( i < 10) {
 	// this block of code will run until the value for i is less than 10 
 }
 
-## Array.prototypes
+## Array.prototype
 You can add a new property to array using this.
+Same goes with String, Boolean and Number
+Boolean.prototype
+Number.prototype
+String.prototype
