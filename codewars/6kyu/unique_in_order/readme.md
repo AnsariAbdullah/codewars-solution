@@ -8,3 +8,6 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 
 ## Solution
 Iterate through the passed parameter (item or array) and check if the next element is same. If not push the value inside a new array else do nothing. Return the new array in the end.
+
+## Alternate solution
+Spread the parameter into an array and use `filter` on that array to filter out items whos next element is same to the current element.
