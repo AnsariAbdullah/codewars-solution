@@ -9,4 +9,7 @@ remove("Hi! Hi!") == "Hi! Hi"
 remove("Hi") == "Hi"
 
 ## Solution
+Remove '!' using regex.
+
+## Alternate Solution
 Split string into array. Check if the last element is '!' if yes `pop` the last element else do nothing. Return after joining the array.
