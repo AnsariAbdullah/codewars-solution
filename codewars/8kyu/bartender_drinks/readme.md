@@ -14,3 +14,6 @@ Make sure you cover the cases where certain words do not show up with correct ca
 
 ## Solution
 Convert the passed parameter to lowercase and use `switch-case` to check the value and return appropriate result.
+
+## Alternate solution
+Create an object and find value from the object using keys. If key not found return 'Beer'
