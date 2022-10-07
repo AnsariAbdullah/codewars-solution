@@ -23,3 +23,6 @@ Coding in function trueOrFalse, function accept 1 parameters:val, try to use the
 
 ## Solution
 Use ternary and return 'true' is value `true` else return 'false'
+
+## Alternate solution
+Use `Boolean()` to find if the value passed to it is true and use `toSting()` to convert the returned boolean to string - 'true' or 'false'
