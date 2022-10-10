@@ -103,3 +103,9 @@ String.prototype
 
 ## JSON.stringify()
 This convert a JavaScript object into a string with JSON.stringify(). A common use of JSON is to exchange data to/from a web server. When sending data to a web server, the data has to be a string.
+
+## Boolean()
+You can use the Boolean() function to find out if an expression (or a variable) is true. 
+```Boolean(10 > 9) // true 
+Boolean(10 < 9) // false
+```
