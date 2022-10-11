@@ -17,21 +17,33 @@
 - Method adds and/or removes array elements. It overwrites the original array
 
 ### Math.max
-- Returns largest value given as input parameters. 
-eg. Math.max(1, 2, 3) // will return 3
+- Returns largest value given as input parameters.
+```
+Math.max(1, 2, 3)
+// will return 3
+```
 - This will also work on arrays
-eg. Math.max(...array) // will return largest value from array
-
+```
+Math.max(...array)
+// will return largest value from array
+```
 ### Math.min
 - Returns smallest value given as input parameters. 
-eg. Math.min(1, 2, 3) // will return 1
+```
+Math.min(1, 2, 3)
+// will return 1
+```
 - This will also work on arrays
-eg. Math.min(...array) // will return smallest value from array
-
+```
+Math.min(...array)
+// will return smallest value from array
+```
 ### Math.floor
 - Rounds down any floating-point integer passed in the argument.
-e.g. Math.floor(5.95) // will return 5
-
+```
+Math.floor(5.95)
+// will return 5
+```
 ### Math.round
 - Rounds the number to the nearest integer.
 e.g. Math.round(0.9); // will return: 1
