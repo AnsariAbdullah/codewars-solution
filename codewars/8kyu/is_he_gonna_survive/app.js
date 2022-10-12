@@ -1,3 +1,3 @@
-function isPalindrome(line) {
-	return line.split('').reverse().join('') == line;
+function hero(bullets, dragons) {
+	return bullets / 2 >= dragons
 }
