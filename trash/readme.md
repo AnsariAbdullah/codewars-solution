@@ -23,5 +23,5 @@ Do other challenges as well from the link above. Find other links also. If there
 - Add sections eg. all `Math.` methods go together
 - Create an index for all the links
 
-Note: Format the actual readme in a better way (Like AirBNB documentation)
-Link for reference: https://github.com/airbnb/javascript
+Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript
+)
