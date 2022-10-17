@@ -24,3 +24,5 @@ Do other challenges as well from the link above. Find other links also. If there
 - Create an index for all the links
 
 Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
+
+Note: Check if we can format all documents
