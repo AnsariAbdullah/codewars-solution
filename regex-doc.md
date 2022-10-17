@@ -64,3 +64,10 @@ Note that the `.match` syntax is the "opposite" of the `.test` method you have b
 'string'.match(/regex/);
 /regex/.test('string');
 ```
+
+## test() vs match()
+`regexObject.test( String )`
+Executes the search for a match between a regular expression and a specified string. Returns true or false.
+
+`string.match( RegExp )`
+Used to retrieve the matches when matching a string against a regular expression. Returns an array with the matches or null if there are none
