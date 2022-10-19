@@ -71,3 +71,21 @@ Executes the search for a match between a regular expression and a specified str
 
 `string.match( RegExp )`
 Used to retrieve the matches when matching a string against a regular expression. Returns an array with the matches or null if there are none.
+
+## Find More Than the First Match
+So far, you have only been able to extract or search a pattern once.
+```
+let testStr = "Repeat, Repeat, Repeat";
+let ourRegex = /Repeat/;
+testStr.match(ourRegex);
+```
+Here `match` would return `["Repeat"]`.
+To search or extract a pattern more than once, you can use the global search flag: `g`.
+```
+let repeatRegex = /Repeat/g;
+testStr.match(repeatRegex);
+```
+And here `match` returns the value `["Repeat", "Repeat", "Repeat"]`
+
+Note
+You can have multiple flags on your regex like `/search/gi`
