@@ -26,3 +26,5 @@ Do other challenges as well from the link above. Find other links also. If there
 Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
 
 Note: Check if we can format all documents
+
+Minie changes
