@@ -27,4 +27,4 @@ Note: Format the actual readme in a better way [AirBnB](https://github.com/airbn
 
 Note: Check if we can format all documents
 
-Minie changes
+Minor changes
