@@ -10,4 +10,4 @@ Your task is to write a function that takes a String and returns an Array/list w
 Note: String will have at least one element; words will always be separated by a space.
 
 ## Solution
-Store string in an array and create a variable with empty array `arr`. Run a loop and on each itiration push the string and length of the string. Return the `arr`.
+Split the string into an array. Map through the items and store the string along with string length on each itiration.
