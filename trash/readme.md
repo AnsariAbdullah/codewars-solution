@@ -1,4 +1,5 @@
-## Use the following links to solve more problems
+
+# Use the following links to solve more problems
 
 https://hackernoon.com/javascript-practical-coding-challenges-for-beginners-4bq3ugr
 
@@ -24,3 +25,5 @@ Do other challenges as well from the link above. Find other links also. If there
 - Create an index for all the links
 
 Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
+
+Minor changes
