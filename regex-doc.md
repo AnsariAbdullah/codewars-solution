@@ -102,3 +102,34 @@ let huRegex = /hu./;
 huRegex.test(humStr);	// returns true
 huRegex.test(hugStr);	// returns true
 ```
+
+## Match Single Character with Multiple Possibilities
+You learned how to match literal patterns (`/literal/`) and wildcard character (`/./`). Those are the extremes of regular expressions, where one finds exact matches and the other matches everything. There are options that are a balance between the two extremes.
+
+You can search for a literal pattern with some flexibility with character classes. Character classes allow you to define a group of characters you wish to match by placing them inside square brackets `[]` brackets.
+
+For example, you want to match bag, big, and bug but not bog. You can create the regex /b[aiu]g/ to do this. The [aiu] is the character class that will only match the characters a, i, or u.
+```
+let bigStr = "big";
+let bagStr = "bag";
+let bugStr = "bug";
+let bogStr = "bog";
+let bgRegex = /b[aiu]g/;
+bigStr.match(bgRegex);	// returns ["big"]
+bagStr.match(bgRegex);	// returns ["bag"]
+bugStr.match(bgRegex);	// returns ["bug"]
+bogStr.match(bgRegex);	// returns null
+```
+We can also use `test` instead of `match`
+
+```
+let bigStr = "big";
+let bagStr = "bag";
+let bugStr = "bug";
+let bogStr = "bog";
+let bgRegex = /b[aiu]g/
+bgRegex.test(bigStr)	// returns true
+bgRegex.test(bagStr)	// returns true
+bgRegex.test(bugStr)	// returns true
+bgRegex.test(bogStr)	// returns false
+```
