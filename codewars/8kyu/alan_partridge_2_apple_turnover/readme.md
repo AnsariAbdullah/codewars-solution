@@ -16,3 +16,6 @@ Task
 Your job is simple, if x squared is more than 1000, return It's hotter than the sun!!, else, return Help yourself to a honeycomb Yorkie for the glovebox.
 
 Note: Input will either be a positive integer (or a string for untyped languages).
+
+## Solution
+Use `Math.pow()` to get the square of the passed parameter and check if it is greater than '1000'. Based on this return appropriate string.
