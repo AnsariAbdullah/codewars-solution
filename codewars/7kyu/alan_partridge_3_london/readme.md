@@ -13,3 +13,6 @@ If all the stops appear in the given list / array, return `Smell my cheese you m
 
 ## Solution
 Use `includes()` in `if-else` and return appropriate string.
+
+## Alternate Solution
+Use `every()` and `includes()` on the array of words to check and return appropriate string.
