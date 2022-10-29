@@ -77,15 +77,14 @@ So far, you have only been able to extract or search a pattern once.
 ```
 let testStr = "Repeat, Repeat, Repeat";
 let ourRegex = /Repeat/;
-testStr.match(ourRegex);
+testStr.match(ourRegex);	// returns ["Repeat"]
 ```
-Here `match` would return `["Repeat"]`.
+
 To search or extract a pattern more than once, you can use the global search flag: `g`.
 ```
 let repeatRegex = /Repeat/g;
-testStr.match(repeatRegex);
+testStr.match(repeatRegex);	// returns ["Repeat", "Repeat", "Repeat"]
 ```
-And here `match` returns the value `["Repeat", "Repeat", "Repeat"]`
 
 Note
 You can have multiple flags on your regex like `/search/gi`
@@ -132,4 +131,40 @@ bgRegex.test(bigStr)	// returns true
 bgRegex.test(bagStr)	// returns true
 bgRegex.test(bugStr)	// returns true
 bgRegex.test(bogStr)	// returns false
+```
+
+## Range matching Numbers and Letters of the Alphabet
+You saw how you can use character sets to specify a group of characters to match, but that's a lot of typing when you need to match a large range of characters (for example, every letter in the alphabet). Fortunately, there is a built-in feature that makes this short and simple.
+
+Inside a character set, you can define a range of characters to match using a hyphen character: -.
+
+For example, to match lowercase letters `a` through `e` you would use `[a-e]`.
+```
+let catStr = "cat";
+let batStr = "bat";
+let matStr = "mat";
+let bgRegex = /[a-e]at/;
+catStr.match(bgRegex);	// returns ['cat']
+batStr.match(bgRegex);	// returns ['bat']
+matStr.match(bgRegex);	// returns null
+```
+We can also use `test` instead of `match`
+
+```
+let catStr = "cat";
+let batStr = "bat";
+let matStr = "mat";
+let bgRegex = /[a-e]at/;
+bgRegex.test(catStr)	// returns true
+bgRegex.test(batStr)	// returns true
+bgRegex.test(matStr)	// returns false
+```
+
+Using the hyphen (`-`) to match a range of numbers is also possible. For example, `/[0-5]/` matches any number between `0` and `5`, including the `0` and `5`.
+
+Also, it is possible to combine a range of letters and numbers in a single character set.
+```
+let jennyStr = "Jenny8675309";
+let myRegex = /[a-z0-9]/ig;
+jennyStr.match(myRegex);
 ```
