@@ -189,3 +189,29 @@ let riverStr = "Mississippi";
 let myRegex = /s+/ig;
 let result = riverStr.match(myRegex);	// returns ['ss', 'ss']
 ```
+
+## Occur Zero or More Times
+The last challenge used the plus `+` sign to look for characters that occur one or more times. There's also an option that matches characters that occur zero or more times.
+
+The character to do this is the asterisk or star: `*`.
+
+```
+let soccerWord = "gooooooooal!";
+let gPhrase = "gut feeling";
+let oPhrase = "over the moon";
+let goRegex = /go*/;
+soccerWord.match(goRegex);	// returns ["goooooooo"]
+gPhrase.match(goRegex);		// returns ["g"]
+oPhrase.match(goRegex);		// returns null
+```
+We can also use `test` instead of `match`
+
+```
+let soccerWord = "gooooooooal!";
+let gPhrase = "gut feeling";
+let oPhrase = "over the moon";
+let goRegex = /go*/;
+goRegex.test(soccerWord)	// returns true
+goRegex.test(gPhrase)		// returns true
+goRegex.test(oPhrase)		// returns false
+```
