@@ -1,8 +1,10 @@
 function count(string) {
-	let cache = {}
 	if (string.length > 0) {
-		string.split('').map(v => cache[v] = cache[v] + 1 || 1)
-		return cache;
+		let count = {};
+		string.split('').forEach(function (s) {
+			count[s] ? count[s]++ : count[s] = 1;
+		});
+		return count;
 	} else {
 		return {};
 	}
