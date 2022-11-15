@@ -42,7 +42,7 @@ You can match both cases using what is called a flag. There are other flags but 
 
 ```
 let myString = "IgnoreCase";
-let fccRegex = /ignorecase/i; // Change this line
+let fccRegex = /ignorecase/i;
 let result = fccRegex.test(myString);
 ```
 
@@ -281,4 +281,15 @@ let numbers = "42%";
 let sentence = "Coding!";
 numbers.match(shortHand);	// returns ["%"]
 sentence.match(shortHand);	// returns ["!"]
+```
+
+## Match All Numbers
+You've learned shortcuts for common string patterns like alphanumerics. Another common pattern is looking for just digits or numbers.
+
+The shortcut to look for digit characters is `\d`, with a lowercase `d`. This is equal to the character class `[0-9]`, which looks for a single character of any number between zero and nine.
+
+```
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g;
+let result = movieName.match(numRegex);	// returns ["2","0","0", "1"]
 ```
