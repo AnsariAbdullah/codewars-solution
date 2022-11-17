@@ -7,3 +7,8 @@ function strCount(str, letter) {
 	}
 	return count;
 }
+
+// alternate solution
+function strCount(str, letter) {
+	return str.split('').filter(item => item === letter).length;
+}
