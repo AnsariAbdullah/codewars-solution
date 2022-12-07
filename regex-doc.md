@@ -340,3 +340,18 @@ let multipleA = /a{3,5}h/;
 multipleA.test(A4);	// returns true
 multipleA.test(A2);	// returns false
 ```
+
+### Specify Only the Lower Number of Matches
+Sometimes you only want to specify the lower number of patterns with no upper limit. To only specify the lower number of patterns, keep the first number followed by a comma.
+
+e.g. to match only the string `hah` with the letter `a` appearing at least `3` times, your regex would be `/ha{3,}h/`.
+
+```
+let A4 = "haaaah";
+let A2 = "haah";
+let A100 = "h" + "a".repeat(100) + "h";
+let multipleA = /ha{3,}h/;
+multipleA.test(A4);	// returns true
+multipleA.test(A2);	// returns false
+multipleA.test(A100);	// returns true
+````
