@@ -1,3 +1,3 @@
 function noBoringZeros(n) {
-  return +`${n}`.replace(/0*$/, "");
+	return +`${n}`.replace(/0*$/, "");
 }
