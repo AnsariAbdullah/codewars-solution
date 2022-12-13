@@ -26,3 +26,6 @@ Differet types of `for loop` uses:
 - Create an index for all the links
 
 Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
+
+
+Minor changes to be added as a seperate item
