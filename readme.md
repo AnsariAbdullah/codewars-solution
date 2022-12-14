@@ -121,3 +121,5 @@ You can use the Boolean() function to find out if an expression (or a variable) 
 ```Boolean(10 > 9) // true 
 Boolean(10 < 9) // false
 ```
+
+<!--- Please add an index for easy navigation -->
