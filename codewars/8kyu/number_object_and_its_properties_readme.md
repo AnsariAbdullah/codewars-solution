@@ -40,7 +40,12 @@ To judge the number `n`. If `n` is one of the above five constants, return one o
 Other values should return `"Input number is xxx"`. xxx means this number.
 
 For example:
-
+```
 whatNumberIsIt(1/0) should return "Input number is Number.POSITIVE_INFINITY"
 whatNumberIsIt(100) should return "Input number is 100"
+```
 What you need to think about is how to judge it correctly and effectively and don't forget isNaN().
+
+## Solution
+Write `if else if` conditions to return appropriate string.
+NOTE: Use `isNan(n)` for NaN condition.
