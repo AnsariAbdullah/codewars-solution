@@ -49,3 +49,6 @@ colorOf(0,111,0) should return "#006f00"
 colorOf(1, 2 ,3) should return "#010203"
 ```
 That's all of your work. My work is print your color code on your screen.
+
+## Solution
+Use `toString(radix)` where radix is 16. If the number converted to string is a single digit/character string add '0' before it and return it in string interpolation.
