@@ -3,6 +3,6 @@ function trueOrFalse(val) {
 }
 
 // alternate solution
-function trueOrFalse(val){
-  return Boolean(val).toString()
+function trueOrFalse(val) {
+	return Boolean(val).toString()
 }
