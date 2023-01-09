@@ -4,3 +4,6 @@ All values in the array will be integers. Return the good values in the order th
 
 ## Solution
 Use `filter()` to filter out all even item. 
+
+## Alternate solution
+Create an array variable `arr`. Iterate over array passed as parameter using `.map()`. If item on each itiration is odd push into `arr` else do nothing. Return `arr`
