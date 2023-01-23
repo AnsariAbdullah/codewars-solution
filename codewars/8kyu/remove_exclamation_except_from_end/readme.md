@@ -14,3 +14,6 @@ remove("Hi") === "Hi!"
 
 ## Solution
 Use regex to remove all exclamation and return the string with an exclamation at end.
+
+## Alternate Solution
+Use `split('1')` and `join('')` to remove all exclamation and return the string with an exclamation at end.
