@@ -3,3 +3,7 @@ function howManySmaller(arr,n){
   return newArr.filter(item => item < n).length
 }
 
+// alternate solution
+function howManySmaller(arr,n){
+  return arr.filter(x => +x.toFixed(2) < n).length;
+}
