@@ -3,3 +3,7 @@ function smallEnough(a, limit){
   return maxNum <= limit ? true : false
 }
 
+// alternate
+function smallEnough(a, limit){
+  return a.every(val => val <= limit)
+}

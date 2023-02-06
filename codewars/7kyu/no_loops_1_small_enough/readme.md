@@ -8,3 +8,6 @@ Do not use loops. Do not modify input array.
 
 ## Solution
 Use `Math.max` to find out the maximum value. Use ternary and find out if the maximum valus is greater than limit return `false` else return `true`
+
+## Alternate solution
+use `.every()` to find if all the values are less than or equal to limit.
