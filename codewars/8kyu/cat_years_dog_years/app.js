@@ -41,3 +41,15 @@ var humanYearsCatYearsDogYears = function(humanYears) {
   }
   return [humanYears, catYear, dogYear]
 }
+
+// alternate solution
+var humanYearsCatYearsDogYears = function(humanYears) {
+  switch(humanYears){
+    case 1:
+      return [humanYears,15,15];
+    case 2:
+      return [humanYears,24,24];
+    default:
+      return [humanYears, (humanYears-2) * 4 + 24, (humanYears-2) * 5 + 24]
+  }
+}
