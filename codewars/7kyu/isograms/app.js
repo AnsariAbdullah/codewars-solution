@@ -9,3 +9,8 @@ function isIsogram(str) {
 	}
 	return true;
 }
+
+// alternate solution
+function isIsogram(str){
+  return new Set(str.toLowerCase()).size === str.length
+}
