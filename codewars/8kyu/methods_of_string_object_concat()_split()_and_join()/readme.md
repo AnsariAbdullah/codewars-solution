@@ -69,7 +69,7 @@ use `split()` and `join()`:My name is John
 ```
 Ok, lesson is over. let's us do some task.
 
-Task
+### Task
 Implement a function which accepts 2 arguments: string and separator.
 
 The expected algorithm: split the string into words by spaces, split each word into separate characters and join them back with the specified separator, join all the resulting "words" back into a sentence with spaces.
@@ -81,3 +81,6 @@ splitAndMerge("My name is John", "-")  ==  "M-y n-a-m-e i-s J-o-h-n"
 splitAndMerge("Hello World!", ".")     ==  "H.e.l.l.o W.o.r.l.d.!"
 splitAndMerge("Hello World!", ",")     ==  "H,e,l,l,o W,o,r,l,d,!"
 ```
+
+### Solution
+Split the string using spaces. Map through each item and split it into alphabets. Join them with seperator and join them again using spaces
