@@ -26,3 +26,5 @@ Differet types of `for loop` uses:
 Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
 
 Note: Add typescript solutions as well
+
+Add a sub folder in codewars with all JS tutorial questions in it and number it
