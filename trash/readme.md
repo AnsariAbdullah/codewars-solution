@@ -27,4 +27,6 @@ Note: Format the actual readme in a better way [AirBnB](https://github.com/airbn
 
 Note: Add typescript solutions as well
 
-Add a sub folder in codewars with all JS tutorial questions in it and number it
+Add a sub folder in codewars with all JS tutorial questions in it and number it.
+
+Add JS methods in order
