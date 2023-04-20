@@ -29,4 +29,4 @@ Note: Add typescript solutions as well
 
 Add a sub folder in codewars with all JS tutorial questions in it and number it.
 
-Add JS methods in order
+Add JS methods in order. And add a lit to navigate it.
