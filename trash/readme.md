@@ -30,3 +30,7 @@ Note: Add typescript solutions as well
 Add a sub folder in codewars with all JS tutorial questions in it and number it.
 
 Add JS methods in order. And add a list to navigate it.
+
+
+## array.map()
+map() creates a new array from calling a function for every array element. It does not execute the function for empty elements. It does not change the original array.
