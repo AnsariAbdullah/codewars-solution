@@ -37,3 +37,6 @@ map() creates a new array from calling a function for every array element. It do
 
 ## array.filter
 The filter() method creates a new array filled with elements that pass a test provided by a function. This method does not execute the function for empty elements. The method does not change the original array.
+
+## array.find
+The find() method returns the value of the first element that passes a test. It method executes a function for each array element and returns undefined if no elements are found. It does not execute the function for empty elements. It does not change the original array.
