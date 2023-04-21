@@ -34,3 +34,6 @@ Add JS methods in order. And add a list to navigate it.
 
 ## array.map()
 map() creates a new array from calling a function for every array element. It does not execute the function for empty elements. It does not change the original array.
+
+## array.filter
+The filter() method creates a new array filled with elements that pass a test provided by a function. This method does not execute the function for empty elements. The method does not change the original array.
