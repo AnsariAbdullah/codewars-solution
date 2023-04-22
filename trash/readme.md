@@ -40,3 +40,7 @@ The filter() method creates a new array filled with elements that pass a test pr
 
 ## array.find
 The find() method returns the value of the first element that passes a test. It method executes a function for each array element and returns undefined if no elements are found. It does not execute the function for empty elements. It does not change the original array.
+
+# String
+## string.trim()
+The trim() method removes whitespace from both sides of a string. It does not change the original string.
