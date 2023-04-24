@@ -47,3 +47,6 @@ The trim() method removes whitespace from both sides of a string. It does not ch
 
 ## toUpperCase()
 The toUpperCase() method converts a string to uppercase letters. This method does not change the original string.
+
+## toLowerCase()
+The toLowerCase() method converts a string to lowercase letters. This method does not change the original string.
