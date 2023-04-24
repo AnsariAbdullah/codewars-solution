@@ -44,3 +44,6 @@ The find() method returns the value of the first element that passes a test. It 
 # String
 ## string.trim()
 The trim() method removes whitespace from both sides of a string. It does not change the original string.
+
+## toUpperCase()
+The toUpperCase() method converts a string to uppercase letters. This method does not change the original string.
