@@ -122,3 +122,23 @@ You can use the Boolean() function to find out if an expression (or a variable) 
 ```Boolean(10 > 9) // true 
 Boolean(10 < 9) // false
 ```
+
+## Array
+## array.map()
+map() creates a new array from calling a function for every array element. It does not execute the function for empty elements. It does not change the original array.
+
+## array.filter
+The filter() method creates a new array filled with elements that pass a test provided by a function. This method does not execute the function for empty elements. The method does not change the original array.
+
+## array.find
+The find() method returns the value of the first element that passes a test. It method executes a function for each array element and returns undefined if no elements are found. It does not execute the function for empty elements. It does not change the original array.
+
+# String
+## string.trim()
+The trim() method removes whitespace from both sides of a string. It does not change the original string.
+
+## toUpperCase()
+The toUpperCase() method converts a string to uppercase letters. This method does not change the original string.
+
+## toLowerCase()
+The toLowerCase() method converts a string to lowercase letters. This method does not change the original string.
