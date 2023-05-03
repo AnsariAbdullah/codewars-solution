@@ -5,11 +5,19 @@
 - Please add an index for easy navigation.
 
 
+
+## Array
+## array.map()
+map() creates a new array from calling a function for every array element. It does not execute the function for empty elements. It does not change the original array.
+
+## array.filter
+The filter() method creates a new array filled with elements that pass a test provided by a function. This method does not execute the function for empty elements. The method does not change the original array.
+
+## array.find
+The find() method returns the value of the first element that passes a test. It method executes a function for each array element and returns undefined if no elements are found. It does not execute the function for empty elements. It does not change the original array.
+
 ### forEach
 - Iterates over array and modifies new array
-
-### map
-- Iterates over array and modifies the same array
 
 ### slice()
 - Returns selected elements in an array, as a new array. It selects from a given start, up to a (not inclusive) given end.
@@ -123,15 +131,6 @@ You can use the Boolean() function to find out if an expression (or a variable) 
 Boolean(10 < 9) // false
 ```
 
-## Array
-## array.map()
-map() creates a new array from calling a function for every array element. It does not execute the function for empty elements. It does not change the original array.
-
-## array.filter
-The filter() method creates a new array filled with elements that pass a test provided by a function. This method does not execute the function for empty elements. The method does not change the original array.
-
-## array.find
-The find() method returns the value of the first element that passes a test. It method executes a function for each array element and returns undefined if no elements are found. It does not execute the function for empty elements. It does not change the original array.
 
 # String
 ## string.trim()
