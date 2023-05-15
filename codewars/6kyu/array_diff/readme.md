@@ -10,3 +10,6 @@ arrayDiff([1,2,2,2,3],[2]) == [1,3]
 ## Solution
 Run filter and on condition that the second parameter does not include the value.
 
+
+## Alternate solution
+Loop through the given array and on each itiration check if the second array has the value. If not push the value in the new array and return it.
