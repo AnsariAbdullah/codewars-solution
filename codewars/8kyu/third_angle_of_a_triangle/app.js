@@ -1,4 +1,4 @@
 function otherAngle(a, b) {
-  let total = a+b
-  return 180-total;
+	let total = a + b
+	return 180 - total;
 }
