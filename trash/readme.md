@@ -31,3 +31,5 @@ Add a sub folder in codewars with all JS tutorial questions in it and number it.
 
 Add JS methods in order. And add a list to navigate it.
 add how to delete value from set and add appropriate comments
+
+add sets info with comments
