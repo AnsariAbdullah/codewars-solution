@@ -7,3 +7,8 @@ function squareDigits(num){
     return parseInt(res)
 }
 
+// alternate solution
+function squareDigits(num){
+  let arr = num.toString().split('').map(int => parseInt(int) * parseInt(int))
+  return parseInt(arr.join(''))
+}
