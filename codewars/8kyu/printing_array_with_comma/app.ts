@@ -1,3 +1,3 @@
-export function printArray(array:any){
-  return array.join(",");
+export function printArray(array: any) {
+	return array.join(",");
 }
