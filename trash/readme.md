@@ -29,4 +29,4 @@ Note: Format the actual readme in a better way [AirBnB](https://github.com/airbn
 
 Add a sub folder in codewars with all JS tutorial questions in it and number it.
 
-<!--Add JS methods in order. And add a list to navigate it.-->
+<!--Add JS methods in order. And add a list to navigate it. -->
