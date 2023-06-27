@@ -2,6 +2,7 @@ Write a method that takes one argument as name and then greets that name, capita
 
 Example:
 
-
+```
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!"
+```
