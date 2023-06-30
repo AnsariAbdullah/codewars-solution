@@ -27,5 +27,5 @@ Note: Format the actual readme in a better way [AirBnB](https://github.com/airbn
 
 
 
-Add a sub folder in codewars with all JS tutorial questions in it and number it.
+<!--Add a sub folder in codewars with all JS tutorial questions in it and number it.-->
 
