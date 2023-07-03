@@ -10,3 +10,6 @@ Note: for this kata `y` isn't considered a vowel.
 
 ## Solution
 Use regex to with `.remove()` to remove all vowels from the string and return it.
+
+## Alternate solution
+Use `split()`, `filter()` and `join()`
