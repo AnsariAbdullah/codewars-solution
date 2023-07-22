@@ -5,3 +5,13 @@ export function between(a: number, b: number): number[] {
   }
   return sol;
 }
+
+// alternate solution
+export function between2(a: number, b: number): number[] {
+  let list:number[] = []
+  while(a<=b){
+    list.push(a);
+    a++
+  }
+  return list;
+}
