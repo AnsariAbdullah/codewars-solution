@@ -15,3 +15,6 @@ sleigh.authenticate("jhoffner", "CodeWars"); // Nope, even Jake is not allowed t
 
 ## Solution
 Use `===` to check if string of name matches to `Santa Claus` and that of password matches to `Ho Ho Ho!`
+
+## Alternate Solution
+Use regex.
