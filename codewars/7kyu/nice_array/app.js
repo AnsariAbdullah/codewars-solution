@@ -10,3 +10,8 @@ export function isNice(arr) {
   }
 }
 
+
+// Alternate solution
+function isNice(arr){
+  return arr.length > 0 ? arr.every(item => arr.includes(item-1) || arr.includes(item+1)) : false
+}
