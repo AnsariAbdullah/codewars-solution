@@ -9,3 +9,8 @@ export function isNice(arr:number[]): boolean {
     return false
   }
 }
+
+// Alternate solution
+export function isNiceAlt(arr:number[]): boolean {
+  return arr.length > 0 ? arr.every(item => arr.includes(item-1) || arr.includes(item+1)) : false
+}
