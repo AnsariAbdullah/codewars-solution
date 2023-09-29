@@ -1,7 +1,7 @@
 function getNumberFromString(s: string): number {
-  const digitString: string = s.replace(/\D/g, '');
+	const digitString: string = s.replace(/\D/g, '');
 
-  return parseInt(digitString);
+	return parseInt(digitString);
 }
 
 // alternate solution
