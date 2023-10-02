@@ -18,3 +18,13 @@ The functions that take a function as an argument, or return a function as a ret
 
 When functions are passed in to or returned from another function, then those functions which were passed in or returned can be called a *lambda*.
 
+## Understand the Hazards of Using Imperative Code
+Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. But before we get there, let's look at an imperative approach to programming to highlight where you may have issues.
+
+In English (and many other languages), the imperative tense is used to give commands. Similarly, an imperative style in programming is one that gives the computer a set of statements to perform a task.
+
+Often the statements change the state of the program, like updating global variables. A classic example is writing a `for` loop that gives exact directions to iterate over the indices of an array.
+
+In contrast, functional programming is a form of declarative programming. You tell the computer what you want done by calling a method or function.
+
+JavaScript offers many predefined methods that handle common tasks so you don't need to write out how the computer should perform them. For example, instead of using the `for` loop mentioned above, you could call the `map` method which handles the details of iterating over an array. This helps to avoid semantic errors, like the "Off By One Errors" that were covered in the Debugging section.
