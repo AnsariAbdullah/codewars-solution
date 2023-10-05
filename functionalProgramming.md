@@ -28,3 +28,8 @@ Often the statements change the state of the program, like updating global varia
 In contrast, functional programming is a form of declarative programming. You tell the computer what you want done by calling a method or function.
 
 JavaScript offers many predefined methods that handle common tasks so you don't need to write out how the computer should perform them. For example, instead of using the `for` loop mentioned above, you could call the `map` method which handles the details of iterating over an array. This helps to avoid semantic errors, like the "Off By One Errors" that were covered in the Debugging section.
+
+## Avoid Mutations and Side Effects Using Functional Programming
+One of the core principles of functional programming is to not change things. Changes lead to bugs. It's easier to prevent bugs knowing that your functions don't change anything, including the function arguments or any global variable.
+
+In functional programming, changing or altering things is called mutation, and the outcome is called a side effect. A function, ideally, should be a pure function, meaning that it does not cause any side effects.
