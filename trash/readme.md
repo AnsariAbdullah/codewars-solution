@@ -29,4 +29,4 @@ Note: Format the actual readme in a better way [AirBnB](https://github.com/airbn
 
 - Formatting code is also important
 
-add prettier for formatting
+- Add prettier for formatting
