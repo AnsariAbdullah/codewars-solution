@@ -107,3 +107,13 @@ The console would display the value `[ { name: 'Amy', age: 20 }, { name: 'camper
 
 ## Implement the filter Method on a Prototype
 You might learn a lot about the `filter` method if you implement your own version of it. It is recommended you use a `for` loop or `Array.prototype.forEach()`.
+
+## Return Part of an Array Using the slice Method
+The `slice` method returns a copy of certain elements of an array. It can take two arguments, the first gives the index of where to begin the slice, the second is the index for where to end the slice (and it's non-inclusive). If the arguments are not provided, the default is to start at the beginning of the array through the end, which is an easy way to make a copy of the entire array. The `slice` method does not mutate the original array, but returns a new one.
+
+Here's an example:
+```
+const arr = ["Cat", "Dog", "Tiger", "Zebra"];
+const newArray = arr.slice(1, 3);
+```
+`newArray` would have the value `["Dog", "Tiger"]`.
