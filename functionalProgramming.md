@@ -195,4 +195,4 @@ const usersObj = users.reduce((obj, user) => {
 }, {});
 console.log(usersObj);
 ```
-The console would display the value { John: 34, Amy: 20, camperCat: 10 }.
+The console would display the value `{ John: 34, Amy: 20, camperCat: 10 }`.
