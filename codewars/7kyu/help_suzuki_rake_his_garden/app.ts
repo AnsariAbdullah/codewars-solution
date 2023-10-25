@@ -7,3 +7,8 @@ export function rakeGarden(garden:string):string {
   }
   return word.join(' ')
 }
+
+// alternate solution
+export function rakeGarden2(garden:string):string {
+  return garden.split(' ').map(item => item === 'rock' ? 'rock' : 'gravel').join(' ')
+}
