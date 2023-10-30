@@ -258,3 +258,16 @@ The last several challenges covered a number of useful array and string methods 
 Let's combine what we've learned to solve a practical problem.
 
 Many content management sites (CMS) have the titles of a post added to part of the URL for simple bookmarking purposes. For example, if you write a Medium post titled `Stop Using Reduce`, it's likely the URL would have some form of the title string in it `(.../stop-using-reduce)`. You may have already noticed this on the freeCodeCamp site.
+
+## Use the every Method to Check that Every Element in an Array Meets a Criteria
+The `every` method works with arrays to check if *every* element passes a particular test. It returns a Boolean value - `true` if all values meet the criteria, `false` if not.
+
+For example, the following code would check if every element in the `numbers` array is less than 10:
+```
+const numbers = [1, 5, 8, 0, 10, 11];
+
+numbers.every(function(currentValue) {
+  return currentValue < 10;
+});
+```
+The every method would return `false` here.
