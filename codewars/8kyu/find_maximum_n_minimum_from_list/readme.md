@@ -12,3 +12,6 @@ You may consider that there will not be any empty arrays/vectors.
 
 ## Solution
 Use `Math.min` and `Math.max` along with spread operator.
+
+## Alternate solution
+Use `.sort()` to sort item in ascending ot decending order based on min or max and return the first element or array.
