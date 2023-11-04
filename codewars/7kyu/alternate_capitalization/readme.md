@@ -8,3 +8,6 @@ Good luck!
 
 ## Solution
 Create a variable and convert it into small case and run loop on on it. On each itiration check if the index is odd or even based on that capitilize the word and add it or don't capitalize.
+
+## Alternate solution
+`.split()` string and `.map()` through it. Based on index capitalize the letter. `.join()` and return.
