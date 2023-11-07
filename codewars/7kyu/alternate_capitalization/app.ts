@@ -13,3 +13,10 @@ export function capitalize(s: string): [string, string] {
   }
   return [oddCaps, evenCaps];
 }
+
+// alternate solution
+function capitalize(s: string): [string, string] {
+  let odd: string = s.split('').map((l, i) => i % 2 == 0 ? l.toUpperCase() : l).join('');
+  let even: string = s.split('').map((l, i) => i % 2 == 0 ? l : l.toUpperCase()).join('');
+  return [odd, even];
+}
