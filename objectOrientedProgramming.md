@@ -79,7 +79,38 @@ This constructor defines a `Bird` object with properties `name`, `color`, and `n
 <li>Constructors use the keyword this to set properties of the object they will create. Inside the constructor, this refers to the new object it will create.</li>
 <li>Constructors define properties and behaviors instead of returning a value as other functions might.</li>
 </ul>
----////----
+
+## Use a Constructor to Create Objects
+Here's the `Bird` constructor from the previous challenge:
+
+```
+function Bird() {
+  this.name = "Albert";
+  this.color  = "blue";
+  this.numLegs = 2;
+}
+let blueBird = new Bird();
+```
+
+NOTE: `this` inside the constructor always refers to the object being created.
+
+Notice that the `new` operator is used when calling a constructor. This tells JavaScript to create a new instance of `Bird` called `blueBird`. Without the `new` operator, `this` inside the constructor would not point to the newly created object, giving unexpected results. Now `blueBird` has all the properties defined inside the `Bird` constructor:
+```
+blueBird.name;
+blueBird.color;
+blueBird.numLegs;
+```
+Just like any other object, its properties can be accessed and modified:
+```
+blueBird.name = 'Elvira';
+blueBird.name;
+```
+
+
+
+
+
+---//THESE ARE LAST TOPICS//----
 
 ## Use Closure to Protect Properties Within an Object from Being Modified Externally
 In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
