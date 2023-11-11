@@ -27,6 +27,4 @@ Differet types of `for loop` uses:
 
 Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
 
-- Formatting code is also important
-
-- Add prettier for formatting
+- Add prettier for formatting code is also important
