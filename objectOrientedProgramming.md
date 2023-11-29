@@ -561,8 +561,6 @@ The console would display the string `Flying, wooosh!` twice, once for each `.fl
 Note how the mixin allows for the same `fly` method to be reused by unrelated objects `bird` and `plane`.
 
 
----//THESE ARE LAST TOPICS//----
-
 ## Use Closure to Protect Properties Within an Object from Being Modified Externally
 In the previous challenge, `bird` had a public property `name`. It is considered public because it can be accessed and changed outside of `bird`'s definition.
 ```
