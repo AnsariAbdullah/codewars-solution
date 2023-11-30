@@ -6,3 +6,7 @@ export function _if(bool: boolean, func1: () => void, func2: () => void) {
   }
 }
 
+// alternate solution
+export function _if2(bool: boolean, func1: () => void, func2: () => void) {
+  bool ? func1() : func2();
+}
