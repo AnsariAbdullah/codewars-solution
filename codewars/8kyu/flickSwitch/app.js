@@ -1,4 +1,10 @@
 function flickSwitch(arr){
+  let flick = true;
+  return arr.map(val => val==='flick' ? flick = !flick : flick)
+}
+
+// alternate solution
+function flickSwitch(arr){
   let resultArr = []
   let boolVal = true;
   arr.forEach(item => {
