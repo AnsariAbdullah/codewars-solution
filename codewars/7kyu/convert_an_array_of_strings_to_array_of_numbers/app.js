@@ -1,3 +1,3 @@
-function toNumberArray(stringarray){
-  return stringarray.map(item => Number(item))
+function toNumberArray(stringarray) {
+	return stringarray.map(item => Number(item))
 }
