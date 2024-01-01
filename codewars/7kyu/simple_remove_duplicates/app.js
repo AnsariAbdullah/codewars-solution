@@ -9,3 +9,8 @@ function solve(arr) {
   }
   return result.reverse();
 }
+
+// alternate solution
+function solve(arr) {
+  return [...new Set(arr.reverse())].reverse()
+}
