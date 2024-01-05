@@ -9,3 +9,8 @@ export function solve(arr: number[]): number[] {
   }
   return result.reverse();
 }
+
+// alternate solution
+function solveAlt(arr: number[]): number[] {
+  return [...new Set(arr.reverse())].reverse();
+}
