@@ -8,4 +8,7 @@ Details
 You will be given a string of numbers and letters mixed up, you have to return all the numbers in that string in the order they occur.
 
 ## Solution
+Use regex to replace non-numerical chars with `''`. Return the output as number.
+
+## Alternate Solution
 Run a for loop on the string and on each ititration check if the item is a number using regex.

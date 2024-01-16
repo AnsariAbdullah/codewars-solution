@@ -1,3 +1,8 @@
+var filterString = function(value) {
+  return +value.replace(/\D/g, '')
+}
+
+// alternate solution
 var filterString = function (value) {
 	let num = ''
 	for (let i = 0; i < value.length; i++) {
@@ -7,3 +12,4 @@ var filterString = function (value) {
 	}
 	return Number(num)
 }
+
