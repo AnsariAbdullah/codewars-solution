@@ -1,5 +1,5 @@
-var filterString = function(value) {
-  return +value.replace(/\D/g, '')
+var filterString = function (value) {
+	return +value.replace(/\D/g, '')
 }
 
 // alternate solution
@@ -12,4 +12,3 @@ var filterString = function (value) {
 	}
 	return Number(num)
 }
-
