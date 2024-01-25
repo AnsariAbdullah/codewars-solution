@@ -5,4 +5,4 @@ Considering these factors, write a function that tells you if it is possible to 
 Function should return `true` if it is possible and `false` if not.
 
 ## Solution
-Multiply fuel left with milage and check if it is greater or equal than distance to pump. If yes return `true` else return `false`
+Multiply fuel left with milage and check if it is greater or equal than distance to pump.
