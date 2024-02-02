@@ -92,3 +92,30 @@ function spinalCase(str) {
 // test here
 spinalCase("This Is Spinal Tap");
 ```
+
+## Pig Latin
+Pig Latin is a way of altering English Words. The rules are as follows:
+
+- If a word begins with a consonant, take the first consonant or consonant cluster, move it to the end of the word, and add ay to it.
+
+- If a word begins with a vowel, just add way at the end.
+
+```
+function translatePigLatin(str) {
+  const vowels = ['a', 'e', 'i', 'o', 'u'];
+  if (vowels.includes(str[0].toLowerCase())) {
+    return str + 'way';
+  } else {
+    let firstVowelIndex = 0;
+    for (let i = 0; i < str.length; i++) {
+      if (vowels.includes(str[i].toLowerCase())) {
+        firstVowelIndex = i;
+        break;
+      }
+    }
+    return str.slice(firstVowelIndex) + str.slice(0, firstVowelIndex) + 'ay';
+  }
+}
+
+translatePigLatin("consonant");
+```
