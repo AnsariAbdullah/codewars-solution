@@ -1,23 +1,28 @@
+
 export function amIAfraid(day: string, num: number): boolean {
-  if(day == "Monday" && num == 12){
-    return true
-  }else if(day == "Tuesday" && num > 95){
-    return true
-  }else if(day == "Wednesday" && num == 34){
-    return true
-  }else if(day == "Thursday" && num == 0){
-    return true
-  }else if(day == "Friday"){
-    if(num%2==0){
-      return true
-    }else{
-      return false
-    }
-  }else if(day == "Saturday" && num === 56){
-    return true
-  }else if(day == "Sunday" && (num === 666 || num === -666 )){
-    return true
-  }else{
-    return false
+  switch(day){
+      case "Monday":
+        return num === 12;
+        break;
+      case "Tuesday":
+        return num > 95;
+        break;
+      case "Wednesday":
+        return num === 34;
+        break;
+      case "Thursday":
+        return num === 0;
+        break;
+      case "Friday":
+        return num%2==0;
+        break;
+      case "Saturday":
+        return num === 56;
+        break;
+      case "Sunday":
+        return 666 === Math.abs(num);
+        break;
+      default:
+        return false
   }
 }
