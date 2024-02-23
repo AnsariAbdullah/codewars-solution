@@ -1,3 +1,3 @@
 export function getASCII(c: string): number {
-  return c.charCodeAt(0);
+	return c.charCodeAt(0);
 }
