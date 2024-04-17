@@ -1,12 +1,5 @@
-function spinWords(string) {
-	let str = '';
-	const sentence = string.split(' ')
-	for (let i = 0; i < sentence.length; i++) {
-		if (sentence[i].length >= 5) {
-			str += ` ${sentence[i].split('').reverse().join('')}`
-		} else {
-			str += ` ${sentence[i]}`
-		}
-	}
-	return str.trim();
+function spinWords(string){
+  return string.split(' ').map(item => {
+    return item.length >= 5 ? item.split('').reverse().join('') : item
+  }).join(' ')
 }
