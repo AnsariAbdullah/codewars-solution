@@ -10,3 +10,17 @@ function switcheroo(x){
   return str;
 }
 
+// alternate solution
+function switcheroo(x){
+  return x.split('').map(item => {
+    if(item === 'a'){
+      return 'b'
+    }
+    if(item === 'b'){
+      return 'a'
+    }
+    if(item === 'c'){
+      return 'c'
+    }
+  }).join('')
+}
