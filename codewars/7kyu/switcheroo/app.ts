@@ -9,3 +9,18 @@ function switcheroo(x: string): string {
   }
   return str;
 }
+
+// alternate solution
+function switcheroo(x: string): string {
+  return x.split('').map(item => {
+    if(item === 'a'){
+      return 'b';
+    }
+    if(item === 'b'){
+      return 'a';
+    }
+    if(item === 'c'){
+      return 'c';
+    }
+  }).join('');
+}
