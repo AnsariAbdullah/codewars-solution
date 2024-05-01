@@ -24,3 +24,9 @@ function switcheroo(x: string): string {
     }
   }).join('');
 }
+
+// alternate solution
+function switcheroo(x: string): string {
+  return x.replace(/[ab]/g, x => x=='a'?'b':'a');
+}
+
