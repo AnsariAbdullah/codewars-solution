@@ -1,4 +1,4 @@
-function switcheroo(x: string): string {
+export function switcheroo(x: string): string {
   let str = '';
   for(let i=0; i<x.length; i++){
     if(x[i] === 'a' || x[i] === 'b'){
@@ -11,7 +11,7 @@ function switcheroo(x: string): string {
 }
 
 // alternate solution
-function switcheroo(x: string): string {
+export function switcherooAlt(x: string): string {
   return x.split('').map(item => {
     if(item === 'a'){
       return 'b';
@@ -26,7 +26,7 @@ function switcheroo(x: string): string {
 }
 
 // alternate solution
-function switcheroo(x: string): string {
+export function switcherooAlt2(x: string): string {
   return x.replace(/[ab]/g, x => x=='a'?'b':'a');
 }
 
