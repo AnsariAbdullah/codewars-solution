@@ -1,10 +1,10 @@
 const isReallyNaN = (val) => {
-  return Number.isNaN(val)
+	return Number.isNaN(val)
 };
 
 // alternate solution
 const isReallyNaNAlt = (val) => {
-  return typeof val == 'number' && isNaN(val)
+	return typeof val == 'number' && isNaN(val)
 };
 
 // alternate solution 2
