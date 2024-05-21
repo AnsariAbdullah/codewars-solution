@@ -9,3 +9,12 @@ export function vowelIndices(word: string): number[] {
   }
   return result
 }
+
+// alternate solution
+export function vowelIndices2(word: string): number[] {
+  let result: number[] = [];
+  for(let i=0; i<word.length; i++){
+    if(/[aeiouy]/i.test(word[i])) result.push(i+1)
+  }
+  return result;
+}
