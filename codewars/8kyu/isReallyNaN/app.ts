@@ -6,3 +6,6 @@ export function isReallyNaN(val: any): boolean {
 export function isReallyNaNAlt(val: any): boolean {
   return typeof val === 'number' && isNaN(val)
 };
+
+// alternate solution
+export const isReallyNaNAlt2 = (val: any): boolean => val != val
