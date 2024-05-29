@@ -7,3 +7,14 @@ function getSum(a, b) {
 	}
 	return result;
 }
+
+// alternate solution
+function getSum(a, b) {
+	let temp = 0;
+	 if(a<b){
+		 while (a<=b) temp += a++;
+	 }else{
+		 while (a>=b) temp += a--;
+	 }
+	 return temp
+ }
