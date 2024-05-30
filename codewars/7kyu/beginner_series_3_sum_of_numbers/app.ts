@@ -7,3 +7,18 @@ export function getSum(a: number, b: number): number {
   }
   return result;
 }
+
+// alternate solution
+function getSumAlt(a: number, b: number): number {
+  let temp = 0;
+  if (a < b) {
+    while (a <= b) {
+      temp += a++;
+    }
+  } else {
+    while (a >= b) {
+      temp += a--;
+    }
+  }
+  return temp;
+}
