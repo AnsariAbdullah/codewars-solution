@@ -11,10 +11,10 @@ function getSum(a, b) {
 // alternate solution
 function getSum(a, b) {
 	let temp = 0;
-	 if(a<b){
-		 while (a<=b) temp += a++;
-	 }else{
-		 while (a>=b) temp += a--;
-	 }
-	 return temp
- }
+	if (a < b) {
+		while (a <= b) temp += a++;
+	} else {
+		while (a >= b) temp += a--;
+	}
+	return temp
+}
