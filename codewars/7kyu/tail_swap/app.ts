@@ -1,8 +1,7 @@
+
 export function tailSwap(arr: [string,string]): [string,string] {
-  const [first, second] = arr;
-  const [firstBC, firstAC] = first.split(":");
-  const [secondBC, secondAC] = second.split(":");
-  const newFirst = `${firstBC}:${secondAC}`
-  const newSecond = `${secondBC}:${firstAC}`
-  return [newFirst, newSecond];
+  const one: string[] = arr[0].split(':');
+  const two: string[] = arr[1].split(':');
+  
+  return [`${one[0]}:${two[1]}`, `${two[0]}:${one[1]}`];
 }
