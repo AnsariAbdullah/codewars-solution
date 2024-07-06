@@ -1,18 +1,18 @@
-function calculator(a, b, sign) {
-	if (Number.isInteger(a + b)) {
-		if (sign === "+") {
-			return a + b
-		} else if (sign === "-") {
-			return a - b
-		} else if (sign === "/") {
-			return a / b
-		} else if (sign === "*") {
-			return a * b
-		} else {
-			return "unknown value"
-		}
-	} else {
-		return "unknown value"
-	}
-
+function calculator(a,b,sign){
+  if(typeof a === 'number' && typeof b === 'number'){
+    switch(sign){
+      case '+':
+        return a+b
+      case '-':
+        return a-b
+      case '/':
+        return a/b
+      case '*':
+        return a*b
+      default:
+        return "unknown value"
+    }
+  }else{
+    return "unknown value"
+  }
 }
