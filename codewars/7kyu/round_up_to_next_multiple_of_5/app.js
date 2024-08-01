@@ -8,3 +8,8 @@ function roundToNext5(n) {
 		return n - (n % 5);
 	}
 }
+
+// alternate solution
+function roundToNext5(n){
+  return Math.ceil(n/5) * 5
+}
