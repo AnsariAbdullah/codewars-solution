@@ -21,9 +21,9 @@ function roundToNext5(n) {
 }
 
 // alternate solution
-function roundToNext5(n){
-  if(n % 5 === 0){
-    return n
-  }
-  return roundToNext5(n + 1)
+function roundToNext5(n) {
+	if (n % 5 === 0) {
+		return n
+	}
+	return roundToNext5(n + 1)
 }
