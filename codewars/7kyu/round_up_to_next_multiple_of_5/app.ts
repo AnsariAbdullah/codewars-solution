@@ -8,3 +8,8 @@ export function roundToNext5(n: number): number {
 		return n - (n % 5);
 	}
 }
+
+// alternate solution
+export function roundToNext5Alt(n: number): number {
+  return Math.ceil(n / 5) * 5;
+}
