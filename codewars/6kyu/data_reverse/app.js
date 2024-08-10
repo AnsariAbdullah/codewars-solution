@@ -8,3 +8,12 @@ function dataReverse(data) {
 	}
 	return result;
 }
+
+// alternate solution
+function dataReverse(data) {
+  let byte = []
+  for(let i=0; i<data.length; i+=8){
+    byte.unshift(...data.slice(i, i+8))
+  }
+  return byte;
+}
