@@ -17,3 +17,12 @@ function dataReverse(data) {
 	}
 	return byte;
 }
+
+// alternate solution
+function dataReverse(data) {
+  let byte = []
+  while(data.length){
+    byte.push(...data.splice(-8))
+  }
+  return byte;
+}
