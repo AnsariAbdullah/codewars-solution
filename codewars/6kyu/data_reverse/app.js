@@ -20,9 +20,9 @@ function dataReverse(data) {
 
 // alternate solution
 function dataReverse(data) {
-  let byte = []
-  while(data.length){
-    byte.push(...data.splice(-8))
-  }
-  return byte;
+	let byte = []
+	while (data.length) {
+		byte.push(...data.splice(-8))
+	}
+	return byte;
 }
