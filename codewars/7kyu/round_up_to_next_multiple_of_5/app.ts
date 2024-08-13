@@ -16,6 +16,6 @@ export function roundToNext5Alt(n: number): number {
 
 // alternate solution
 export function roundToNext5Alt2(n: number): number {
-  while (n % 5 !== 0) n++;
-  return n;
+	while (n % 5 !== 0) n++;
+	return n;
 }
