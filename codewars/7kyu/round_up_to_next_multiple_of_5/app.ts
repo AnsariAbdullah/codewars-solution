@@ -22,8 +22,8 @@ export function roundToNext5Alt2(n: number): number {
 
 // alternate solution
 export function roundToNext5Alt3(n: number): number {
-  if (n % 5 === 0) {
-    return n;
-  }
-  return roundToNext5(n + 1);
+	if (n % 5 === 0) {
+		return n;
+	}
+	return roundToNext5(n + 1);
 }
