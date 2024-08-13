@@ -19,3 +19,11 @@ export function roundToNext5Alt2(n: number): number {
 	while (n % 5 !== 0) n++;
 	return n;
 }
+
+// alternate solution
+export function roundToNext5Alt3(n: number): number {
+  if (n % 5 === 0) {
+    return n;
+  }
+  return roundToNext5(n + 1);
+}
