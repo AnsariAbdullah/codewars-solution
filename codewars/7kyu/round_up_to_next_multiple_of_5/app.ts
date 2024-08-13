@@ -13,3 +13,9 @@ export function roundToNext5(n: number): number {
 export function roundToNext5Alt(n: number): number {
 	return Math.ceil(n / 5) * 5;
 }
+
+// alternate solution
+export function roundToNext5Alt2(n: number): number {
+  while (n % 5 !== 0) n++;
+  return n;
+}
