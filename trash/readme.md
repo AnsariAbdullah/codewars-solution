@@ -24,8 +24,10 @@ Differet types of `for loop` uses:
 - Make it a point based thing
 - Add sections eg. all `Math.` methods go together
 - Create an index for all the links
+- minor changes
 
 Note: Format the actual readme ina better way [AirBnB](https://github.com/airbnb/javascript)
+
 
 - Add prettier for formatting code is also important.
 - Configure prettier as well. Check documntation for configurations.
