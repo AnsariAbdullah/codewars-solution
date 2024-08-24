@@ -7,27 +7,27 @@ interface Array<T> {
 	odd(): number[];
 }
 
-Array.prototype.square = function(): number[] {
+Array.prototype.square = function (): number[] {
 	return this.map(x => x * x);
 };
 
-Array.prototype.cube = function(): number[] {
+Array.prototype.cube = function (): number[] {
 	return this.map(x => x * x * x);
 };
 
-Array.prototype.average = function(): number {
+Array.prototype.average = function (): number {
 	return this.length === 0 ? NaN : this.sum() / this.length;
 };
 
-Array.prototype.sum = function(): number {
+Array.prototype.sum = function (): number {
 	return this.reduce((acc, x) => acc + x, 0);
 };
 
-Array.prototype.even = function(): number[] {
+Array.prototype.even = function (): number[] {
 	return this.filter(x => x % 2 === 0);
 };
 
-Array.prototype.odd = function(): number[] {
+Array.prototype.odd = function (): number[] {
 	return this.filter(x => x % 2 !== 0);
 };
 
