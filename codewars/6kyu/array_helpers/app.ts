@@ -33,54 +33,54 @@ Array.prototype.odd = function (): number[] {
 
 // alternate solution w/o map
 interface Array<T> {
-  square(): number[];
-  cube(): number[];
-  average(): number;
-  sum(): number;
-  even(): number[];
-  odd(): number[];
+	square(): number[];
+	cube(): number[];
+	average(): number;
+	sum(): number;
+	even(): number[];
+	odd(): number[];
 }
 
 Array.prototype.square = function (): number[] {
-  const square: number[] = [];
-  for (let i = 0; i < this.length; i++) {
-    square[i] = Math.pow(this[i], 2);
-  }
-  return square;
+	const square: number[] = [];
+	for (let i = 0; i < this.length; i++) {
+		square[i] = Math.pow(this[i], 2);
+	}
+	return square;
 };
 
 Array.prototype.cube = function (): number[] {
-  const cube: number[] = [];
-  for (let i = 0; i < this.length; i++) {
-    cube[i] = Math.pow(this[i], 3);
-  }
-  return cube;
+	const cube: number[] = [];
+	for (let i = 0; i < this.length; i++) {
+		cube[i] = Math.pow(this[i], 3);
+	}
+	return cube;
 };
 
 Array.prototype.average = function (): number {
-  return this.reduce((acc: number, x: number) => acc + x, 0) / this.length;
+	return this.reduce((acc: number, x: number) => acc + x, 0) / this.length;
 };
 
 Array.prototype.sum = function (): number {
-  let sum: number = 0;
-  for (let i = 0; i < this.length; i++) {
-    sum += this[i];
-  }
-  return sum;
+	let sum: number = 0;
+	for (let i = 0; i < this.length; i++) {
+		sum += this[i];
+	}
+	return sum;
 };
 
 Array.prototype.even = function (): number[] {
-  const even: number[] = [];
-  for (let i = 0; i < this.length; i++) {
-    if (this[i] % 2 === 0) even.push(this[i]);
-  }
-  return even;
+	const even: number[] = [];
+	for (let i = 0; i < this.length; i++) {
+		if (this[i] % 2 === 0) even.push(this[i]);
+	}
+	return even;
 };
 
 Array.prototype.odd = function (): number[] {
-  const odd: number[] = [];
-  for (let i = 0; i < this.length; i++) {
-    if (this[i] % 2 !== 0) odd.push(this[i]);
-  }
-  return odd;
+	const odd: number[] = [];
+	for (let i = 0; i < this.length; i++) {
+		if (this[i] % 2 !== 0) odd.push(this[i]);
+	}
+	return odd;
 };
