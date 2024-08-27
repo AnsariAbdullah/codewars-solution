@@ -14,3 +14,13 @@ function reverseBytes(data: number[]): number[] {
 
 	return result;
 }
+
+
+// alternate solution
+export function reverseBytesAlt(data: number[]): number[] {
+	let byte: number[] = [];
+	for (let i = 0; i < data.length; i += 8) {
+			byte.unshift(...data.slice(i, i + 8));
+	}
+	return byte;
+}
