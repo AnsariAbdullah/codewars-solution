@@ -28,7 +28,7 @@ export function reverseBytesAlt(data: number[]): number[] {
 export function reverseBytesAlt2(data: number[]): number[] {
 	let byte: number[] = [];
 	while (data.length) {
-			byte.push(...data.splice(-8));
+		byte.push(...data.splice(-8));
 	}
 	return byte;
 }
