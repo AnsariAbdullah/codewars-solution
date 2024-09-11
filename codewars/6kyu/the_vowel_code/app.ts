@@ -1,4 +1,3 @@
-// optimized solution
 const  vowels = 'aeiou';
 // turn vowels into numbers
 export function encode(string: string): string {
