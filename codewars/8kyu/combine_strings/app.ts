@@ -1,0 +1,1 @@
+export const combineNames = (fName: string, lName: string): string => `${fName} ${lName}`
