@@ -1,3 +1,3 @@
-function bloodMoon(r){
-  return r*r/4;
+function bloodMoon(r) {
+	return r * r / 4;
 }
