@@ -1,8 +1,8 @@
 export class Ghost {
-  color: string;
+	color: string;
 
-  constructor() {
-    const colors: string[] = ["white", "yellow", "purple", "red"];
-    this.color = colors[Math.floor(Math.random() * colors.length)];
-  }
+	constructor() {
+		const colors: string[] = ["white", "yellow", "purple", "red"];
+		this.color = colors[Math.floor(Math.random() * colors.length)];
+	}
 }
