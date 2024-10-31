@@ -5,3 +5,8 @@ function findGlasses(arr){
   }
   return -1
 }
+
+// alternate solution 
+function findGlasses(arr){
+  return arr.findIndex(i => /O-+O/.test(i))
+}
