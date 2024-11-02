@@ -7,6 +7,6 @@ export function findGlasses(arr: string[]): number{
 }
 
 // optimized 
-export function findGlasses(arr: string[]): number{
+export function findGlassesAlt(arr: string[]): number{
   return arr.findIndex(i => /O-+O/.test(i))
 }
