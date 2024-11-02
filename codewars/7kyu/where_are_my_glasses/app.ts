@@ -5,3 +5,8 @@ export function findGlasses(arr: string[]): number{
   }
   return -1
 }
+
+// optimized 
+export function findGlasses(arr: string[]): number{
+  return arr.findIndex(i => /O-+O/.test(i))
+}
