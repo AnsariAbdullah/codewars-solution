@@ -9,3 +9,14 @@ function min(arr, toReturn) {
   }
   return toReturn == "value" ? smallestValue : smallestIndex;
 }
+
+// alternate solution
+function min(arr, toReturn) { 
+  let smallestValue = Math.min(...arr);
+  if(toReturn == "value"){
+    return smallestValue
+  }else{
+    return arr.indexOf(smallestValue)
+  } 
+}
+
