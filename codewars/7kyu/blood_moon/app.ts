@@ -1,3 +1,3 @@
-export function bloodMoon(r: number): number{
-  return r*r/4;
+export function bloodMoon(r: number): number {
+	return r * r / 4;
 }
