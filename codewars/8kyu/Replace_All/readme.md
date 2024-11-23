@@ -10,3 +10,6 @@ String `str` will never be null.
 
 ## Solution
 Use `replaceAll` to replace all `.` with `-`
+
+## Alternate solution
+Use `replace` with regex and replace all occurance with `g`.
