@@ -1,8 +1,8 @@
-var replaceDots = function(str) {
-  return str.replaceAll('.', '-');
+var replaceDots = function (str) {
+	return str.replaceAll('.', '-');
 }
 
 // alternate solution
-var replaceDots = function(str) {
-  return str.replace(/\./g, '-');
+var replaceDots = function (str) {
+	return str.replace(/\./g, '-');
 }
