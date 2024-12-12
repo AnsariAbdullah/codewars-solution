@@ -11,3 +11,10 @@ function min(arr: number[], toReturn: "value" | "index"): number {
 
   return toReturn === "value" ? smallestValue : smallestIndex;
 }
+
+// alternate solution
+function minAlternative(arr: number[], toReturn: "value" | "index"): number { 
+  let smallestValue = Math.min(...arr);
+
+  return toReturn === "value" ? smallestValue : arr.indexOf(smallestValue);
+}
