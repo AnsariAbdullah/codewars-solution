@@ -6,7 +6,7 @@ export function moveTen(s: string): string {
 
 // alternate solution
 export function moveTen1(s: string): string {
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
-  const move10 = 'klmnopqrstuvwxyzabcdefghij';
-  return s.replace(/[a-z]/g, x => move10[alphabet.indexOf(x)]);
+	const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+	const move10 = 'klmnopqrstuvwxyzabcdefghij';
+	return s.replace(/[a-z]/g, x => move10[alphabet.indexOf(x)]);
 }
