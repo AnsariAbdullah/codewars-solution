@@ -1,18 +1,18 @@
-function solve(s){
+function solve(s) {
 	let lowerCaseChars = 0;
 	let upperCaseChars = 0;
-	
-	for(let char of s){
-		if(char === char.toUpperCase()){
+
+	for (let char of s) {
+		if (char === char.toUpperCase()) {
 			upperCaseChars++
-		}else{
+		} else {
 			lowerCaseChars++
 		}
 	}
-	
-	if(upperCaseChars > lowerCaseChars){
+
+	if (upperCaseChars > lowerCaseChars) {
 		return s.toUpperCase();
-	}else{
+	} else {
 		return s.toLowerCase();
 	}
 }
