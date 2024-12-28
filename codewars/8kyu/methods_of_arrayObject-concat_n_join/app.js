@@ -5,3 +5,8 @@ function bigToSmall(arr) {
 	}
 	return result.sort((a, b) => b - a).join('>')
 }
+
+// alternate solution
+function bigToSmall(arr){
+  return [].concat(...arr).sort((a, b) => b - a).join('>');
+}
