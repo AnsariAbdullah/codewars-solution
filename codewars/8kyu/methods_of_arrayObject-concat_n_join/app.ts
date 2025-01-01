@@ -9,5 +9,5 @@ export function bigToSmall(arr: number[][]): string {
 
 // alternate solution
 export function bigToSmallAlt(arr: any[]): string {
-  return [].concat(...arr).sort((a, b) => b - a).join('>');
+	return [].concat(...arr).sort((a, b) => b - a).join('>');
 }
