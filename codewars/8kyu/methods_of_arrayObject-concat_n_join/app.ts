@@ -6,3 +6,8 @@ export function bigToSmall(arr: number[][]): string {
 
 	return result.sort((a, b) => b - a).join('>');
 }
+
+// alternate solution
+export function bigToSmallAlt(arr: any[]): string {
+  return [].concat(...arr).sort((a, b) => b - a).join('>');
+}
