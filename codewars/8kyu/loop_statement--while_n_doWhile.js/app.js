@@ -13,19 +13,19 @@ function padIt(str, n) {
 }
 
 // alternate solution
-function padIt(str,n){
-  let res = str;
-  let i = 0;
-  let side = true;
-  while(i<n){
-    if(side){
-      res = "*"+res;
-      side = false;
-    }else{
-      res = res+"*";
-      side = true;
-    }
-    i++
-  }
-  return res;
+function padIt(str, n) {
+	let res = str;
+	let i = 0;
+	let side = true;
+	while (i < n) {
+		if (side) {
+			res = "*" + res;
+			side = false;
+		} else {
+			res = res + "*";
+			side = true;
+		}
+		i++
+	}
+	return res;
 }
