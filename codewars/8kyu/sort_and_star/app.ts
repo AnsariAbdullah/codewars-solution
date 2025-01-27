@@ -1,4 +1,3 @@
 export function twoSort(s: string[]): string {
-  const sortedString: string[] = s.sort();
-  return sortedString[0].split('').join('***');
+  return s.sort()[0].split('').join('***');
 }
