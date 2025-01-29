@@ -8,5 +8,5 @@ function getCount(str) {
 
 // alternate solution
 function getCount(str) {
-  return str.split('').filter(item => "aeiouAEIOU".includes(item)).length;
+	return str.split('').filter(item => "aeiouAEIOU".includes(item)).length;
 }
