@@ -10,3 +10,9 @@ function getCount(str) {
 function getCount(str) {
 	return str.split('').filter(item => "aeiouAEIOU".includes(item)).length;
 }
+
+// alternate solution
+function getCount(str) {
+  let list = str.match(/[aeiou]/gi);
+  return list ? list.length : 0;
+}
