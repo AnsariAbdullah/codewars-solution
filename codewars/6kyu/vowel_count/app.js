@@ -13,6 +13,6 @@ function getCount(str) {
 
 // alternate solution
 function getCount(str) {
-  let list = str.match(/[aeiou]/gi);
-  return list ? list.length : 0;
+	let list = str.match(/[aeiou]/gi);
+	return list ? list.length : 0;
 }
