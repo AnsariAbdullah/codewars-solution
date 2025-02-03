@@ -7,3 +7,10 @@ export class Kata {
 		return count;
 	}
 }
+
+// alternate solution
+export class Kata2 {
+  static getCount(str: string): number {
+    return str.split('').filter(item => 'aeiouAEIOU'.includes(item)).length;
+  }
+}
