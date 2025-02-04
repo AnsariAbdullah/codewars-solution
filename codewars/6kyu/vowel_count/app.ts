@@ -14,3 +14,11 @@ export class Kata2 {
 		return str.split('').filter(item => 'aeiouAEIOU'.includes(item)).length;
 	}
 }
+
+// alternate solution
+export class Kata3 {
+  static getCount(str: string): number {
+    let list = str.match(/[aeiou]/gi);
+    return list ? list.length : 0;
+  }
+}
