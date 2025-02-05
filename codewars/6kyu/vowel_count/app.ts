@@ -17,8 +17,8 @@ export class Kata2 {
 
 // alternate solution
 export class Kata3 {
-  static getCount(str: string): number {
-    let list = str.match(/[aeiou]/gi);
-    return list ? list.length : 0;
-  }
+	static getCount(str: string): number {
+		let list = str.match(/[aeiou]/gi);
+		return list ? list.length : 0;
+	}
 }
