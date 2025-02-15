@@ -1,5 +1,5 @@
 function add(n) {
-  return function (x) {
-    return x+n;
-  }
+	return function (x) {
+		return x + n;
+	}
 }
