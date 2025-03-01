@@ -8,9 +8,9 @@ function warnTheSheep(queue) {
 
 // alternate solution
 function warnTheSheep(queue) {
-  const position = queue.reverse().indexOf("wolf");
-  return position ? 
-    `Oi! Sheep number ${position}! You are about to be eaten by a wolf!`
-    : "Pls go away and stop eating my sheep"
-  ;
+	const position = queue.reverse().indexOf("wolf");
+	return position ?
+		`Oi! Sheep number ${position}! You are about to be eaten by a wolf!`
+		: "Pls go away and stop eating my sheep"
+		;
 }
