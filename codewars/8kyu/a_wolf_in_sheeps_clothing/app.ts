@@ -5,3 +5,12 @@ export function warnTheSheep(queue: string[]): string {
 
 	return `Oi! Sheep number ${ind}! You are about to be eaten by a wolf!`;
 }
+
+// alternate solution
+export function warnTheSheepAlt(queue: string[]): string {
+	const position = queue.reverse().indexOf("wolf");
+	return position ?
+			`Oi! Sheep number ${position}! You are about to be eaten by a wolf!`
+			: "Pls go away and stop eating my sheep"
+			;
+}
