@@ -9,3 +9,9 @@ function cutIt(arr) {
 	}
 	return result;
 }
+
+// alternate solution
+function cutIt(arr){
+  const shortestStringLength = Math.min(...arr.map(x => x.length))
+  return arr.map(item => item.substr(0, shortestStringLength));
+}
