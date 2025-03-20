@@ -11,7 +11,7 @@ export function cutIt(arr: string[]): string[] {
 }
 
 // alternate solution
-export function cutItAlt(arr: string[]): string[]{
-  const shortestStringLength: number = Math.min(...arr.map(x => x.length))
-  return arr.map(item => item.substr(0, shortestStringLength));
+export function cutItAlt(arr: string[]): string[] {
+	const shortestStringLength: number = Math.min(...arr.map(x => x.length))
+	return arr.map(item => item.substr(0, shortestStringLength));
 }
