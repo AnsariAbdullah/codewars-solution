@@ -14,19 +14,19 @@ https://flatlogic.com/blog/best-react-open-source-projects/
 
 Add maps and set in JS. Not sure if this should go in global readme. Also add looping of `for of` and `for in`.
 
-Maybe you can write a blog about the journey of codewars on hashnode.
+Maybe you can write a blog about the journey of CodeWars on Hashnode.
 
-Differet types of `for loop` uses:
+Different types of `for loop` uses:
 - `for of` for array
 - `for in` for object
 
-### Start the freecodecamp JS section and write those as well in the main readme section.
-- Make it a point based thing
+### Start the freecodecamp JS section and write those in the main readme section as well.
+- Make it a point-based thing
 - Add sections eg. all `Math.` methods go together
 - Create an index for all the links
 
-Note: Format the actual readme ina better way [AirBnB](https://github.com/airbnb/javascript)
+Note: Format the actual readme in a better way [AirBnB](https://github.com/airbnb/javascript)
 
 
-- Add prettier for formatting code is also important.
-- Configure prettier as well. Check documntation for configurations.
+- Adding prettier for formatting code is also important.
+- Configure prettier as well. Check the documentation for configurations.
