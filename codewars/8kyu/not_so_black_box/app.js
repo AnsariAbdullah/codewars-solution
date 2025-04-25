@@ -1,3 +1,3 @@
-console.log(blackBox.toString())
+console.log(blackBox.toString());
 
-JSopenSesame()
+JSopenSesame();
