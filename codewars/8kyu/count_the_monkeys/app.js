@@ -8,5 +8,5 @@ function monkeyCount(n) {
 
 // alternate solution
 function monkeyCount(n) {
-  return Array.from({length: n}, (item, i) => i+1)
+  return Array.from({ length: n }, (item, i) => i + 1);
 }
