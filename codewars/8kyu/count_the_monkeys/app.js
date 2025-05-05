@@ -5,3 +5,8 @@ function monkeyCount(n) {
   }
   return arr;
 }
+
+// alternate solution
+function monkeyCount(n) {
+  return Array.from({length: n}, (item, i) => i+1)
+}
