@@ -13,5 +13,7 @@ function monkeyCount(n) {
 
 // alternate solution
 function monkeyCount(n) {
-  return Array(n).fill(0).map((item, i) => i+1)
+  return Array(n)
+    .fill(0)
+    .map((item, i) => i + 1);
 }
