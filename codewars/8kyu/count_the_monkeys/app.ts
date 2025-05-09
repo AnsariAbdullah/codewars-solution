@@ -10,3 +10,8 @@ export function monkeyCount(n: number) {
 export function monkeyCountAlt1(n: number) {
   return Array.from({ length: n }, (_, i) => i + 1);
 }
+
+// alternate solution
+export function monkeyCountAl2(n: number) {
+  return Array(n).fill(0).map((_, i) => i+1);
+}
