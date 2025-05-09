@@ -12,6 +12,6 @@ export function monkeyCountAlt1(n: number) {
 }
 
 // alternate solution
-export function monkeyCountAl2(n: number) {
+export function monkeyCountAlt2(n: number) {
   return Array(n).fill(0).map((_, i) => i+1);
 }
