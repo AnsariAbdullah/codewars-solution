@@ -3,6 +3,6 @@ const quarterOf = (month) => {
 };
 
 // alternate solution
-const quarterOf = (month) => {
+const quarterOfAlt = (month) => {
   return Math.ceil(month/3)
 }
