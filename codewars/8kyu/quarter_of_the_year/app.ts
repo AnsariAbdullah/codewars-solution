@@ -4,5 +4,5 @@ export function quarterOf(month: number): number {
 
 // alternate solution
 export function quarterOfAlt(month: number): number {
-    return Math.ceil(month/3)
+  return Math.ceil(month / 3);
 }
