@@ -6,8 +6,8 @@ function duckDuckGoose(players, goose) {
 // alternate solution
 function duckDuckGoose(players, goose) {
   let circle = goose;
-  while(players.length < circle) {
-      circle -= players.length
-    }
-    return players[circle - 1 ].name
+  while (players.length < circle) {
+    circle -= players.length;
+  }
+  return players[circle - 1].name;
 }
