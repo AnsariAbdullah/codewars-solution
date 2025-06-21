@@ -1,4 +1,3 @@
 function unscrambleEggs(word) {
-  const output = word.replace(/egg/g, "");
-  return output;
+  return word.replace(/egg/g, "");
 }
