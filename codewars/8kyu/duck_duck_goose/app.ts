@@ -10,8 +10,8 @@ export function duckDuckGoose<T>(players: Player[], goose: number): string {
 // alternate solution
 export function duckDuckGooseAlt(players: Player[], goose: number): string {
   let circle = goose;
-  while(players.length < circle) {
-      circle -= players.length
-    }
-    return players[circle - 1 ].name
+  while (players.length < circle) {
+    circle -= players.length;
+  }
+  return players[circle - 1].name;
 }
