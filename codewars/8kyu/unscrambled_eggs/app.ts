@@ -5,5 +5,5 @@ export function unscrambleEggs(word: string): string {
 
 // optimised solution
 export function unscrambleEggsAlt(word: string): string {
-return word.replace(/egg/g, "");
+  return word.replace(/egg/g, "");
 }
