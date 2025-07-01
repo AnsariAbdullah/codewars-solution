@@ -7,9 +7,6 @@ export function sumOfDifferencesAlt(arr: number[]): number {
   }
   return result;
 }
-
-
-
 // alternate solution
 export function sumOfDifferences(arr: number[]): number {
   return arr.length > 1 ? Math.max(...arr) - Math.min(...arr) : 0;
