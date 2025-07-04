@@ -26,9 +26,9 @@ function isVow(a) {
 }
 
 // alternate solution
-function isVow(a){
-  return a.map(code => {
-  let char = String.fromCharCode(code);
-  return 'aeiou'.includes(char) ? char : code;
-  })
+function isVow(a) {
+  return a.map((code) => {
+    let char = String.fromCharCode(code);
+    return "aeiou".includes(char) ? char : code;
+  });
 }
