@@ -16,14 +16,11 @@ export function isVow(a: number[]): (number | string)[] {
   return newArr;
 }
 
-
-
 // alternate solution
 export function isVowAlt(a: (number | string)[]): (number | string)[] {
-for(let i=0, l = a.length; i<l; i++){
-  let char = String.fromCharCode(Number(a[i]));
-  if('aeiou'.indexOf(char) !== -1)
-    a[i] = char;
-}
-return a
+  for (let i = 0, l = a.length; i < l; i++) {
+    let char = String.fromCharCode(Number(a[i]));
+    if ("aeiou".indexOf(char) !== -1) a[i] = char;
+  }
+  return a;
 }
