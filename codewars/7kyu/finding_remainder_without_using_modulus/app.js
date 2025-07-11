@@ -1,1 +1,2 @@
-const remainder = (dividend, divisor) => dividend - Math.floor(dividend/divisor)*divisor;
+const remainder = (dividend, divisor) =>
+  dividend - Math.floor(dividend / divisor) * divisor;
