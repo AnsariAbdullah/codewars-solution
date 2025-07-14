@@ -3,8 +3,8 @@ const remainder = (dividend, divisor) =>
 
 // aleternate solution
 const remainderAlt = (D, d) => {
-while(D>=d){
-  D-=d
-}
-  return D
+  while (D >= d) {
+    D -= d;
+  }
+  return D;
 };
