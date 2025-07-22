@@ -1,0 +1,1 @@
+export const remainder =(dividend:number, divisor:number): number => dividend - Math.floor(dividend/divisor) * divisor;
