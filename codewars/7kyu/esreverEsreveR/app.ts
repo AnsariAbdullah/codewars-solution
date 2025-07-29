@@ -9,3 +9,8 @@ export function esrever(str: string): string {
       .join(" ") + punctuation
   );
 }
+
+// alternate solution
+export function esreverAlt(str: String): String {
+    return str.slice(0, -1).split('').reverse().join('') + str.slice(-1);
+}
