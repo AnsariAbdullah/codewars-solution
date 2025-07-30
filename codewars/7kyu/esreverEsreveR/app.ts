@@ -12,5 +12,5 @@ export function esrever(str: string): string {
 
 // alternate solution
 export function esreverAlt(str: String): String {
-    return str.slice(0, -1).split('').reverse().join('') + str.slice(-1);
+  return str.slice(0, -1).split("").reverse().join("") + str.slice(-1);
 }
