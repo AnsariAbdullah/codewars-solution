@@ -8,5 +8,8 @@ function findAll(array, n) {
 
 // alternate solution
 function findAll(array, n) {
-    return array.reduce((acc, curr, ind) => curr === n ? [...acc, ind] : acc, [])
+  return array.reduce(
+    (acc, curr, ind) => (curr === n ? [...acc, ind] : acc),
+    []
+  );
 }
