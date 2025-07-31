@@ -5,3 +5,8 @@ function findAll(array, n) {
   }
   return res;
 }
+
+// alternate solution
+function findAll(array, n) {
+    return array.reduce((acc, curr, ind) => curr === n ? [...acc, ind] : acc, [])
+}
