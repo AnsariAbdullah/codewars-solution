@@ -13,3 +13,11 @@ function findAll(array, n) {
     []
   );
 }
+
+// alternate solution
+function findAll(array, n) {
+  return array.reduce((acc, curr, ind) => {
+  if(curr === n) acc.push(ind)
+  return acc;
+  }, [])
+}
