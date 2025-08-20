@@ -16,9 +16,9 @@ export function findAllAlt(array: number[], n: number): number[] {
 }
 
 // alternate solution
-export function findAllAlt2(array: number[], n: number): number[]{
+export function findAllAlt2(array: number[], n: number): number[] {
   return array.reduce<number[]>((acc: number[], curr: number, ind: number) => {
-    if(curr === n) acc.push(ind)
+    if (curr === n) acc.push(ind);
     return acc;
-  }, [])
+  }, []);
 }
