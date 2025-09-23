@@ -1,29 +1,30 @@
-class Block{
-  constructor(data){
+class Block {
+  constructor(data) {
     [this.width, this.length, this.height] = data;
   }
-	
-  getWidth(){
+
+  getWidth() {
     return this.width;
   }
 
-  getLength(){
+  getLength() {
     return this.length;
   }
 
-  getHeight(){
+  getHeight() {
     return this.height;
   }
 
-  getVolume(){
+  getVolume() {
     return this.width * this.length * this.height;
   }
 
-  getSurfaceArea(){
-    return 2 * (
-      this.height * this.length +
-      this.height * this.width +
-      this.length * this.width
-    )
+  getSurfaceArea() {
+    return (
+      2 *
+      (this.height * this.length +
+        this.height * this.width +
+        this.length * this.width)
+    );
   }
 }
