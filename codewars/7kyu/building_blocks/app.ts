@@ -8,15 +8,15 @@ export class Block {
   }
 
   getWidth(): number {
-   return this.width;
+    return this.width;
   }
 
   getLength(): number {
-  return this.length;
+    return this.length;
   }
 
   getHeight(): number {
-return this.height;
+    return this.height;
   }
 
   getVolume(): number {
