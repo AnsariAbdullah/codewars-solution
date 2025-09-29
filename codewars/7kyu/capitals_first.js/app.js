@@ -1,5 +1,5 @@
 function capitalsFirst(input) {
-  const words = input.split(' ');
+  const words = input.split(" ");
   const uppers = [];
   const lowers = [];
 
