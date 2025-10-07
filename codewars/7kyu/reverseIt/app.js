@@ -7,3 +7,10 @@ function reverseIt(data) {
   }
   return data;
 }
+
+// alternate solution
+function reverseIt(data){
+  return typeof data === 'number' ? +[...`${data}`].reverse().join('') :
+    typeof data === 'string' ? [...data].reverse().join('') : 
+    data
+}
