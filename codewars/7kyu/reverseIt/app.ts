@@ -7,3 +7,12 @@ export function reverseIt(data: unknown): unknown {
   }
   return data;
 }
+
+
+// alternate solution
+export const reverseItAlt = (data: unknown): unknown =>
+  typeof data === "number"
+    ? Number([...`${data}`].reverse().join(""))
+    : typeof data === "string"
+    ? [...data].reverse().join("")
+    : data;
