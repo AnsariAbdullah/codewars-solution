@@ -8,7 +8,6 @@ export function reverseIt(data: unknown): unknown {
   return data;
 }
 
-
 // alternate solution
 export const reverseItAlt = (data: unknown): unknown =>
   typeof data === "number"
