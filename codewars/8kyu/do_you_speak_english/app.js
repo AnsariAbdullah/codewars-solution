@@ -3,6 +3,6 @@ function spEng(sentence) {
 }
 
 // alternate solution
-function spEng(sentence){
- return /english/i.test(sentence);
+function spEng(sentence) {
+  return /english/i.test(sentence);
 }
