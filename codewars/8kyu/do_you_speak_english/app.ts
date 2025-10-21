@@ -3,6 +3,6 @@ export function spEng(sentence: string): boolean {
 }
 
 // alternate solution
-export function spEngAlt(sentence: string): boolean{
+export function spEngAlt(sentence: string): boolean {
   return /english/i.test(sentence);
 }
