@@ -1,10 +1,10 @@
 function validParentheses(parenStr) {
   let balance = 0;
-  
+
   for (let char of parenStr) {
-    if (char === '(') {
+    if (char === "(") {
       balance++;
-    } else if (char === ')') {
+    } else if (char === ")") {
       balance--;
       if (balance < 0) return false;
     }
