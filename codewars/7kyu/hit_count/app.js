@@ -9,3 +9,16 @@ function counterEffect(hitCount) {
   }
   return result;
 }
+
+// alternte solution
+function counterEffect(hitCount) {
+  let counter; 
+  counter = hitCount.split('').map((item) => {
+    let newArr = [];
+    for(let i=0; i<=item; i++){
+      newArr.push(i)
+    }
+    return newArr;
+  })   
+  return counter;
+}
