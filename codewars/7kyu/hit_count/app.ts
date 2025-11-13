@@ -12,13 +12,13 @@ export function counterEffect(hitCount: string): number[][] {
 
 // alternate solution
 export function counterEffectAlt(hitCount: string): number[][] {
-  let counter: number[][]; 
-  counter = hitCount.split('').map((item) => {
+  let counter: number[][];
+  counter = hitCount.split("").map((item) => {
     let newArr = [];
-    for(let i=0; i<=Number(item); i++){
-      newArr.push(i)
+    for (let i = 0; i <= Number(item); i++) {
+      newArr.push(i);
     }
     return newArr;
-  })   
+  });
   return counter;
 }
