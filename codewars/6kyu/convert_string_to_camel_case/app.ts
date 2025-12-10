@@ -6,6 +6,6 @@ export function toCamelCase(str: string): string {
 }
 
 // alternate solution
-function alToCamelCase(str: string): string{
-  return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase())
+function alToCamelCase(str: string): string {
+  return str.replace(/[-_](.)/g, (_, c) => c.toUpperCase());
 }
