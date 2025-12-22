@@ -13,6 +13,7 @@ function validateRace(moves) {
 
   return true;
 }
+
 // alternate solution
 let validateRace = (m) =>
   !m
