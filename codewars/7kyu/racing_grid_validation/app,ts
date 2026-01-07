@@ -22,3 +22,12 @@ export function validateRaceAlt(m: number[]): boolean {
     .some((a, b) => a ^ b);
 }
 
+
+// alternate solution
+export function validateRaceAlt2(moves: number[]): boolean {
+  const final = moves.map((v, i) => i + v);
+  return (
+    final.every((x) => x >= 0 && x < moves.length) &&
+    new Set(final).size === moves.length
+  );
+}
