@@ -13,3 +13,12 @@ export function validateRace(moves: number[]): boolean {
 
   return true;
 }
+
+// alternate solution
+export function validateRaceAlt(m: number[]): boolean {
+  return !m
+    .map((a, b) => a + b)
+    .sort((a, b) => a - b)
+    .some((a, b) => a ^ b);
+}
+
