@@ -1,3 +1,3 @@
-var templateStrings = function(noun, adjective) {
-  return `${noun} are ${adjective}`
-}
+var templateStrings = function (noun, adjective) {
+  return `${noun} are ${adjective}`;
+};
