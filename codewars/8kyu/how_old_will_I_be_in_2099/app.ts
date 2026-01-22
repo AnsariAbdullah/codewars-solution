@@ -11,3 +11,14 @@ export function calculateAge(birthYear: number, targetYear: number): string {
     yearsUntilBorn === 1 ? "" : "s"
   }.`;
 }
+
+// alternate solution
+export function calculateAgeAlt(m: number, n: number): string {
+  if (m === n) return 'You were born this very year!';
+
+  const diff = Math.abs(m - n);
+  const year = diff === 1 ? 'year' : 'years';
+
+  if (m < n) return `You are ${n - m} ${year} old.`;
+  return `You will be born in ${m - n} ${year}.`;
+}
