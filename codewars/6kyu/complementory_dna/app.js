@@ -13,3 +13,10 @@ function DNAStrand(dna){
   })
   return newArr.join('');
 }
+
+// alternate solution
+const pairs = {'A':'T','T':'A','C':'G','G':'C'};
+
+function dnaStrand(dna){
+  return dna.split("").map(item => pairs[item]).join("");
+}
