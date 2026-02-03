@@ -15,3 +15,21 @@ export class Kata {
     return newArr.join("");
   }
 }
+
+
+// alternate solution
+export class KataAlt {
+  static dnaStrand(dna: string): string {
+    const pairs = {
+      A: 'T',
+      T: 'A',
+      C: 'G',
+      G: 'C',
+    } as const;
+
+    return dna
+      .split('')
+      .map((item) => pairs[item as keyof typeof pairs])
+      .join('');
+  }
+}
