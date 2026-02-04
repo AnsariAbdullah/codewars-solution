@@ -1,8 +1,8 @@
 type Item = {
-  a: string
-  c: string
-}
+  a: string;
+  c: string;
+};
 
-const items:Item[]=[]
+const items: Item[] = [];
 
-items.push({ a: "b", c: "d" })
+items.push({ a: "b", c: "d" });
