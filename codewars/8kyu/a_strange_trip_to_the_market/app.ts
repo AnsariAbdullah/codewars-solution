@@ -6,5 +6,5 @@ export function isLochNessMonster(s: string): boolean {
 
 // alternate solution
 export function isLochNessMonsterAlt(s: string): boolean {
-return /tree fiddy|3\.50|three fifty/i.test(s)
+  return /tree fiddy|3\.50|three fifty/i.test(s);
 }
