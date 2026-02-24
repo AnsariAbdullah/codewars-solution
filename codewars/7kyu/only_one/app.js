@@ -5,3 +5,8 @@ function onlyOne(...allParams) {
   });
   return trueCount === 1;
 }
+
+// alternate solution
+function onlyOne(...args) {
+return args.filter(Boolean).length === 1
+}
