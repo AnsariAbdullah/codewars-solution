@@ -8,5 +8,5 @@ function onlyOne(...allParams) {
 
 // alternate solution
 function onlyOne(...args) {
-return args.filter(Boolean).length === 1
+  return args.filter(Boolean).length === 1;
 }
