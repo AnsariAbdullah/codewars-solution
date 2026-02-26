@@ -5,3 +5,8 @@ export function onlyOne(...allParams: boolean[]): boolean {
   });
   return trueCount === 1;
 }
+
+// alternate solution
+export function onlyOneAlt(...args: boolean[]): boolean {
+  return args.filter(Boolean).length === 1
+}
