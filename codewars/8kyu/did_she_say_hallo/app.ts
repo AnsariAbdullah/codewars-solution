@@ -11,3 +11,8 @@ export function validateHello(greetings: string): boolean {
   ];
   return helloWords.some((word) => text.includes(word));
 }
+
+// alternate solution
+export function validateHelloAlt(greetings: string): boolean {
+  return /(ahoj|ciao|czesc|h[ae]llo|hola|salut)/i.test(greetings)
+}
