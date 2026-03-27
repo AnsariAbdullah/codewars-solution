@@ -9,10 +9,8 @@ interface Job {
   locations: string[];
 }
 
-
 export function match(job: Job, candidates: Candidate[]): Candidate[] {
-  return candidates.filter(candidate => {
-
+  return candidates.filter((candidate) => {
     // Equity check
     if (candidate.desiresEquity && job.equityMax === 0) {
       return false;
@@ -21,10 +19,10 @@ export function match(job: Job, candidates: Candidate[]): Candidate[] {
     // Location check
     const candidateLocations = [
       candidate.currentLocation,
-      ...candidate.desiredLocations
+      ...candidate.desiredLocations,
     ];
 
-    const locationMatch = job.locations.some(location =>
+    const locationMatch = job.locations.some((location) =>
       candidateLocations.includes(location)
     );
 
