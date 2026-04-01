@@ -13,12 +13,12 @@ String.prototype.toAlternatingCase = function () {
 // alternate solution
 String.prototype.toAlternatingCase = function () {
   let newStr = "";
-  for(let i=0; i<this.length; i++){
-    if(this[i] == this[i].toUpperCase()){
+  for (let i = 0; i < this.length; i++) {
+    if (this[i] == this[i].toUpperCase()) {
       newStr += this[i].toLowerCase();
-    }else{
+    } else {
       newStr += this[i].toUpperCase();
-}
-}
-  return newStr
-}
+    }
+  }
+  return newStr;
+};
