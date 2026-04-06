@@ -26,12 +26,13 @@ export function toAlternatingCaseAlt(s: string): string {
 
 // as prototype
 String.prototype.toAlternatingCaseProto = function (): string {
-  return this.split('')
+  return this.split("")
     .map((c: string) => {
-		if(c === c.toUpperCase()){
-				return c.toLowerCase()
-			}else{
-				return c.toUpperCase()
-			}
-		}).join('');
+      if (c === c.toUpperCase()) {
+        return c.toLowerCase();
+      } else {
+        return c.toUpperCase();
+      }
+    })
+    .join("");
 };
