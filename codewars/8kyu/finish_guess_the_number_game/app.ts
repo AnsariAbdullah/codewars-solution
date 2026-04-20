@@ -2,10 +2,10 @@ export class Guesser {
   private number: number;
   private lives: number;
 
-constructor(number: number, lives: number) {
-  this.number = number;
-  this.lives = lives;
-}
+  constructor(number: number, lives: number) {
+    this.number = number;
+    this.lives = lives;
+  }
 
   guess(n: number): boolean {
     if (this.lives <= 0) {
