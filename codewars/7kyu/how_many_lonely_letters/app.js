@@ -1,10 +1,10 @@
 function countLonelyLetters(text) {
-  const letters = text.toLowerCase().replace(/[^a-z]/g, '');
-  
+  const letters = text.toLowerCase().replace(/[^a-z]/g, "");
+
   const freq = {};
-for (const ch of letters) {
-	freq[ch] = (freq[ch] || 0) + 1;
-}
+  for (const ch of letters) {
+    freq[ch] = (freq[ch] || 0) + 1;
+  }
 
   let count = 0;
 
