@@ -1,11 +1,11 @@
 export function countLonelyLetters(text: string): number {
-  const letters: string = text.toLowerCase().replace(/[^a-z]/g, '');
+  const letters: string = text.toLowerCase().replace(/[^a-z]/g, "");
 
   const freq: Record<string, number> = {};
 
-for (const ch of letters) {
-	freq[ch] = (freq[ch] || 0) + 1;
-}
+  for (const ch of letters) {
+    freq[ch] = (freq[ch] || 0) + 1;
+  }
 
   let count: number = 0;
 
