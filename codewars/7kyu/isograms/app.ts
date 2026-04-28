@@ -11,6 +11,6 @@ return true;
 }
 
 // alternate solution
-export function isIsogram(str: string): boolean{
+export function isIsogramAlt(str: string): boolean{
   return new Set(str.toLowerCase()).size === str.length
 }
