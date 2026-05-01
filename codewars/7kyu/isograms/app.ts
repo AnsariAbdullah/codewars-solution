@@ -12,5 +12,5 @@ export function isIsogram(str: string): boolean {
 
 // alternate solution
 export function isIsogramAlt(str: string): boolean {
-return new Set(str.toLowerCase()).size === str.length;
+  return new Set(str.toLowerCase()).size === str.length;
 }
