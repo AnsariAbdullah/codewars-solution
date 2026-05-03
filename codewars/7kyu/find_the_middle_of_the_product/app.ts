@@ -11,21 +11,15 @@ export function getMiddleChar(str: string): number{
 }
 
 export function findMiddle(str: any){
-  if (typeof str === 'string') {
-      const cleaned = str.replace(/\D/g, "");
-      if(cleaned === '') {
-          return -1
-      }else{
-          let product:number = 1;
-          cleaned.split('').forEach((itm: string)  => {
-              product *= Number(itm)
-          });
-          console.log(product);
-          return getMiddleChar(String(product));
-      }
-  }else{
-      return -1
-  }
+  if (typeof str !== 'string') return -1
   
+  const cleaned = str.replace(/\D/g, "");
   
+  if(cleaned === '') return -1
+  
+  let product = 1;
+  cleaned.split('').forEach((itm: string) => {
+      product *= Number(itm)
+  });
+  return getMiddleChar(String(product));  
 }
