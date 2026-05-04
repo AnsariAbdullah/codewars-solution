@@ -1,25 +1,27 @@
-function getMiddleChar(str) {
-  let stringLength = str.length;
-  let mid = stringLength / 2;
-  let res = "";
-  if (str.length % 2 === 0) {
-    res = str.slice(mid - 1, mid + 1);
-  } else {
-    res = str.charAt(Math.floor(mid));
-  }
-  return Number(res);
+function extractDigits(str){
+  if(typeof str !== 'string') return null
+  
+  const cleaned = str.replace(/\D/g, '');
+
+return cleaned ? cleaned : null;
 }
 
-function findMiddle(str) {
-  if (typeof str !== "string") return -1;
+function getMiddleNumber(value){
+  const str = String(value);
+const mid = Math.floor(str.length / 2);
+  
+  return str.length % 2 === 0 ? Number(str.slice(mid-1, mid+1)) : Number(str[mid])
+}
 
-  const cleaned = str.replace(/\D/g, "");
-
-  if (cleaned === "") return -1;
-
+function findMiddle(str){
+  const nums = extractDigits(str);
+  
+if(!nums) return -1
+  
   let product = 1;
-  cleaned.split("").forEach((itm) => {
-    product *= itm;
+  nums.split('').forEach(itm => {
+      product *= itm
   });
-  return getMiddleChar(String(product));
+  
+  return getMiddleNumber(product);
 }
