@@ -1,25 +1,28 @@
-export function getMiddleChar(str: string): number{
-    let stringLength = str.length;
-    let mid = stringLength / 2;
-    let res = '';
-    if(str.length % 2 === 0){
-        res = str.slice(mid - 1, mid + 1);
-    }else{
-        res = str.charAt(Math.floor(mid));
-    }
-    return Number(res)
+export function extractDigits(str: string): string | null {
+  if (typeof str !== 'string') return null;
+
+const cleaned = str.replace(/\D/g, '');
+
+ return cleaned ? cleaned : null;
 }
 
-export function findMiddle(str: any){
-  if (typeof str !== 'string') return -1
-  
-  const cleaned = str.replace(/\D/g, "");
-  
-  if(cleaned === '') return -1
-  
-  let product = 1;
-  cleaned.split('').forEach((itm: string) => {
-      product *= Number(itm)
+export function getMiddleNumber(value: number): number {
+  const str = String(value);
+ const mid = Math.floor(str.length / 2);
+
+ return str.length % 2 === 0 ? Number(str.slice(mid - 1, mid + 1)) : Number(str[mid]);
+}
+
+export function findMiddle(str: string): number {
+  const nums = extractDigits(str);
+
+ if (!nums) return -1;
+
+ let product = 1;
+
+  nums.split('').forEach((itm: string) => {
+    product *= Number(itm);
   });
-  return getMiddleChar(String(product));  
+
+  return getMiddleNumber(product);
 }
