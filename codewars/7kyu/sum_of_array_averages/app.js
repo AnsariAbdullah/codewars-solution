@@ -1,12 +1,12 @@
-function sumAverage(arrays) {  
+function sumAverage(arrays) {
   let total = 0;
   for (const arr of arrays) {
     let sum = 0;
     for (const num of arr) {
       sum += num;
     }
-   let average = sum / arr.length;
-  total += average;
+    let average = sum / arr.length;
+    total += average;
   }
 
   return total;
