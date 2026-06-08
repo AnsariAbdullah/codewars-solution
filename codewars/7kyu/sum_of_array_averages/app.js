@@ -12,16 +12,15 @@ function sumAverage(arrays) {
   return total;
 }
 
-
 // alternate solution
-Array.prototype.sum = function(){
-return this.reduce((curr, p) => curr+p);
-}
+Array.prototype.sum = function () {
+  return this.reduce((curr, p) => curr + p);
+};
 
-Array.prototype.average = function(){
-return this.sum() / this.length;
-}
+Array.prototype.average = function () {
+  return this.sum() / this.length;
+};
 
 function sumAverage(arrays) {
-    return arrays.map(a => a.average()).sum();
+  return arrays.map((a) => a.average()).sum();
 }
