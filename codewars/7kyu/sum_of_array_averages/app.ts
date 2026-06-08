@@ -7,7 +7,7 @@ export function sumAverage(arrays: number[][]): number {
     }
     let average = sum / arr.length;
     total += average;
-}
+  }
 
   return total;
 }
