@@ -7,10 +7,9 @@ function convert(decimalDegrees) {
 
   const result = [degrees, minutes, seconds];
 
- while (result.length > 1 && result[result.length - 1] === 0) {
+  while (result.length > 1 && result[result.length - 1] === 0) {
     result.pop();
- }
+  }
 
   return result;
-  
 }
