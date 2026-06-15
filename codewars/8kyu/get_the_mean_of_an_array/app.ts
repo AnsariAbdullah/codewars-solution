@@ -1,3 +1,3 @@
-export function getAverage(marks: number[]): number{
- return Math.floor(marks.reduce((acc, curr) => acc +curr , 0)/marks.length)
+export function getAverage(marks: number[]): number {
+  return Math.floor(marks.reduce((acc, curr) => acc + curr, 0) / marks.length);
 }
