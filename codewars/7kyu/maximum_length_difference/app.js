@@ -24,7 +24,7 @@ function mxdiflg(a1, a2) {
   const length2 = a2.map((s) => s.length);
 
   return Math.max(
-    Math.abs( Math.max(...length1) - Math.min(...length2) ),
-    Math.abs( Math.max(...length2) - Math.min(...length1) ),
-  )
+    Math.abs(Math.max(...length1) - Math.min(...length2)),
+    Math.abs(Math.max(...length2) - Math.min(...length1))
+  );
 }
