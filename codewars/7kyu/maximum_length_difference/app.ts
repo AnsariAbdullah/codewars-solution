@@ -23,9 +23,8 @@ export const mxdiflgAlt = (a1: string[], a2: string[]): number => {
   const length1 = a1.map((s) => s.length);
   const length2 = a2.map((s) => s.length);
 
-
- return Math.max(
+  return Math.max(
     Math.abs(Math.max(...length1) - Math.min(...length2)),
-    Math.abs(Math.max(...length2) - Math.min(...length1)),
-  )
+    Math.abs(Math.max(...length2) - Math.min(...length1))
+  );
 };
