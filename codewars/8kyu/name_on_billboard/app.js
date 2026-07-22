@@ -1,8 +1,7 @@
-function billboard(name, price = 30) {
-  const str = name.split("");
-  let finalPrice = 0;
-  str.forEach((item) => {
-    finalPrice += price;
-  });
-  return finalPrice;
+function billboard(name, price = 30){
+  let totalPrice = 0;
+  for(let i=0; i<name.length; i++){
+     totalPrice += price;
+  }
+  return totalPrice;
 }
