@@ -8,6 +8,9 @@ function toAcronym(inp) {
 }
 
 // alternate solution
-function toAcronym(inp){
- return inp.split(' ').map(item => item[0].toUpperCase()).join('')
+function toAcronym(inp) {
+  return inp
+    .split(" ")
+    .map((item) => item[0].toUpperCase())
+    .join("");
 }
