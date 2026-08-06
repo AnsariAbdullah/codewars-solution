@@ -6,3 +6,8 @@ function toAcronym(inp) {
   }
   return res.toUpperCase();
 }
+
+// alternate solution
+function toAcronym(inp){
+ return inp.split(' ').map(item => item[0].toUpperCase()).join('')
+}
