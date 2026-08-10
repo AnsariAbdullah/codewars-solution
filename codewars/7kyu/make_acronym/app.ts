@@ -6,3 +6,8 @@ export function toAcronym(inp: string): string {
   }
   return res.toUpperCase();
 }
+
+// alternate solution
+export function toAcronymAlt(inp: string): string{
+ return inp.split(' ').map(item => item[0].toUpperCase()).join('')
+}
