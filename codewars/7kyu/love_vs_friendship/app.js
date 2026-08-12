@@ -1,4 +1,4 @@
-function wordsToMarks(string){
+function wordsToMarks(string) {
   const alphabet = {
     a: 1,
     b: 2,
@@ -25,11 +25,11 @@ function wordsToMarks(string){
     w: 23,
     x: 24,
     y: 25,
-    z: 26
+    z: 26,
   };
-  let res = 0
-  for(let i=0; i<string.length; i++){
-    res += alphabet[string[i]]
+  let res = 0;
+  for (let i = 0; i < string.length; i++) {
+    res += alphabet[string[i]];
   }
   return res;
 }
