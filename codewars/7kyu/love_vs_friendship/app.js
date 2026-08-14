@@ -34,12 +34,11 @@ function wordsToMarks(string) {
   return res;
 }
 
-
 // alternate solution
-function wordsToMarks(string){
+function wordsToMarks(string) {
   let res = 0;
-  for(let i=0; i<string.length; i++){
-    res += string.charCodeAt(i) - 96
+  for (let i = 0; i < string.length; i++) {
+    res += string.charCodeAt(i) - 96;
   }
-  return res
+  return res;
 }
