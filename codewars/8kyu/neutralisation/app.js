@@ -5,3 +5,8 @@ function neutralise(s1, s2) {
   }
   return neutralizedValue;
 }
+
+// alternate solution
+function neutralise(s1, s2) {
+ return s1.split('').map((item, ind) => item === s2[ind] ? item : "0").join('');
+}
