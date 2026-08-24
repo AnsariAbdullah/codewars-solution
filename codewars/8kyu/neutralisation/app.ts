@@ -5,3 +5,8 @@ export function neutraliseOpt(s1: string, s2: string): string {
   }
   return neutralizedValue;
 }
+
+// alternate solution
+export function neutraliseAlt(s1: string, s2: string): string {
+ return s1.split('').map((item, ind) => item === s2[ind] ? item : "0").join('');
+}
