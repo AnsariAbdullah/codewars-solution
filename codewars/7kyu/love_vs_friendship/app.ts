@@ -1,4 +1,4 @@
-export function wordsToMarks(str: string): number{
+export function wordsToMarks(str: string): number {
   const alphabet = {
     a: 1,
     b: 2,
@@ -25,11 +25,11 @@ export function wordsToMarks(str: string): number{
     w: 23,
     x: 24,
     y: 25,
-    z: 26
+    z: 26,
   };
-  let res = 0
-  for(let i: number=0; i<str.length; i++){
-    res += alphabet[str[i]]
+  let res = 0;
+  for (let i: number = 0; i < str.length; i++) {
+    res += alphabet[str[i]];
   }
- return res;
+  return res;
 }
