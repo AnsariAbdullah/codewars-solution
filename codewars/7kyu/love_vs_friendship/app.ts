@@ -35,10 +35,10 @@ export function wordsToMarks(str: string): number {
 }
 
 // alternate solution
-export function wordsToMarksAlt(string: string): number{
+export function wordsToMarksAlt(string: string): number {
   let res = 0;
-  for(let i=0; i<string.length; i++){
-    res += string.charCodeAt(i) - 96
+  for (let i = 0; i < string.length; i++) {
+    res += string.charCodeAt(i) - 96;
   }
- return res
+  return res;
 }
