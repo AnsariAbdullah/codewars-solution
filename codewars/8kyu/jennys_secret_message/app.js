@@ -4,6 +4,6 @@ function greet(name) {
 }
 
 // alternate solution
-function greet(name){
- return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
+function greet(name) {
+  return name === "Johnny" ? "Hello, my love!" : "Hello, " + name + "!";
 }
