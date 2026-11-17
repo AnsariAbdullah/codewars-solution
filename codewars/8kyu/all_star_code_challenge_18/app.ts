@@ -7,3 +7,8 @@ export function strCount(str: string, letter: string): number {
   }
   return count;
 }
+
+// alternate solution
+export function strCountAlt(str: string, letter: string): number {
+	return str.split('').filter(item => item === letter).length;
+}
