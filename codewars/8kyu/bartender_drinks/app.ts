@@ -26,14 +26,14 @@ export function getDrinkByProfession(param: string): string {
 
 // alternate solution
 const drinks: Record<string, string> = {
-	"jabroni": "Patron Tequila",
-	"school counselor": "Anything with Alcohol",
-	"programmer": "Hipster Craft Beer",
-	"bike gang member": "Moonshine",
-	"politician": "Your tax dollars",
-	"rapper": "Cristal"
-}
+  jabroni: "Patron Tequila",
+  "school counselor": "Anything with Alcohol",
+  programmer: "Hipster Craft Beer",
+  "bike gang member": "Moonshine",
+  politician: "Your tax dollars",
+  rapper: "Cristal",
+};
 
 export function getDrinkByProfessionAlt(param: string): string {
-	return drinks[param.toLowerCase()] || 'Beer'
+  return drinks[param.toLowerCase()] || "Beer";
 }
